@@ -1,0 +1,45 @@
+# file of general proficiencies and weights by ability score
+# format is profname, max number of times selectable (0 means infty),
+# list of stats by number (1->Str, 2->Int,...)
+# this list may be empty
+# a negative stat corresponds to correlation with negative val
+# (ie, -1 means a negative str score increases likelihood)
+
+Adventuring, 1, 1, 2, 3, 4, 5, 6
+Alchemy, 3, 2
+Animal Husbandry, 3, 3
+Animal Training, 0, 6
+Art, 2, 3, 6
+Bargaining, 0, 6
+Caving, 1, 2, 4, 5
+Collegiate Wizardry, 0, 2
+Craft, 2, 3
+Diplomacy, 1, 6
+Disguise, 1, 4, 6
+Endurance, 1, 5
+Engineering, 4, 2
+Gambling, 0, 4, 5
+Healing, 3, 2, 3
+Intimidation, 1, 1, 6
+Knowledge, 3, 2
+#Labor, 0
+Language, 0, 2, 6
+Leadership, 1, 6
+Lip Reading, 1, 4
+Manual of Arms, 2, 1, 4, 5, 6
+Mapping, 3, 2
+Military Strategy, 3, 2
+Mimicry, 3, 6
+Naturalism, 0, 2, 3, 5
+Navigation, 1, 2, 5
+Performance, 3, 6
+Profession, 3, 2, 3
+Riding, 0, 1, 4
+Seafaring, 3, 4, 5
+Seduction, 1, 6
+Siege Engineering, 2, 2, 5
+Signaling, 1, 2
+Survival, 1, 5
+Theology, 0, 2, 3
+Tracking, 1, 5
+Trapping, 1, 4, 5

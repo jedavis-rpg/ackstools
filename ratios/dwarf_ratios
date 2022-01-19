@@ -1,0 +1,5 @@
+# Merc type : parts : scale divisor (1 for inf, 2 for cav) : wage
+Heavy infantry:4:1:18
+Crossbowmen:2:1:24
+Mounted crossbowmen:1:2:45
+Furies:1:1:15

@@ -1,0 +1,26 @@
+<!doctype html>
+<title>DaW:B Terrain Generator v0.1</title>
+  <h1>Domains at War: Battles Terrain Generator</h1>
+  <form action="{{ url_for('genterrain') }}" method="GET">
+    Hex type:
+    <select name="hextype">
+      <option value="Clear">Clear</option>
+      <option value="Grass">Grass</option>
+      <option value="Barren">Barren</option>
+      <option value="Desert">Desert</option>
+      <option value="Hills">Hills</option>
+      <option value="Scrub">Scrub</option>
+      <option value="Woods">Woods</option>
+      <option value="Mountains">Mountains</option>
+      <option value="Jungle">Jungle</option>
+      <option value="Swamp">Swamp</option>
+    </select>
+    <input type="submit" value="Generate!">
+  </form>
+  {% if features %}
+    <ul id="features">
+    {% for feature in features %}
+      <li>{{ feature }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}

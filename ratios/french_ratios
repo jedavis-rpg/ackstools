@@ -1,0 +1,4 @@
+# Merc type : parts : scale divisor (1 for inf, 2 for cav) : wage
+Men-at-arms:4:2:50
+Crossbowmen:3:1:18
+Spearmen:12:1:6

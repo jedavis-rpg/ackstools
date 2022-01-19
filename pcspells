@@ -1,0 +1,160 @@
+# Spell list for spellbook and henchman generation
+# Format is that spells are listed by level, with a blank line separating
+# levels.  Lines starting with # are ignored
+# Trailing newline at end of file, because I am lazy at parsers
+# 1st level:
+Burning Hands
+Charm Person
+Chameleon
+Choking Grip
+Detect Magic
+Floating Disc
+Hold Portal
+Jump
+Light
+Magic Missile
+Magic Mouth
+Magic Rope
+Protection from Evil
+Read Languages
+Sharpness
+Shield
+Silent Step
+Sleep
+Slipperiness
+Spider Climb
+Summon Berserkers
+Unseen Servant
+Ventriloquism
+Wall of Smoke
+
+# 2s
+Alter Self
+Continual Light
+Deathless Minion
+Detect Evil
+Detect Invisible
+Detect Secret Doors
+ESP
+Glitterdust
+Gust of Wind
+Hypnotic Pattern
+Inaudibility
+Invisibility
+Knock
+Levitate
+Locate Object
+Mirror Image
+Necromantic Potence
+Ogre Power
+Phantasmal Force
+Stinking Cloud
+Summon Hero
+Uncanny Gyration
+Web
+Wizard Lock
+
+# 3s
+Clairvoyance
+Clairaudience
+Chimerical Force
+Command Person
+Dismember
+Dispel Magic
+Earth's Teeth
+Enervate
+Fireball
+Fly
+Gaseous Form
+Growth
+Haste
+Hold Person
+Infravision
+Invisibility 10' radius
+Lightning Bolt
+Nondetection
+Protection from Evil Sustained
+Protection from Normal Missiles
+Skinchange
+Summon Winged Steed
+Telepathy
+Water Breathing
+
+# 4s
+Charm Monster
+Command Plant
+Confusion
+Conjure Ooze
+Dimension Door
+Fear
+Find Treasure
+Giant Strength
+Growth of Plants
+Hallucinatory Terrain
+Magic Carpet
+Massmorph
+Minor Globe of Invulnerability
+Polymorph Other
+Polymorph Self
+Remove Curse
+Scry
+Spectral Force
+Spell Storing
+Summon Fantastic Creature
+Wall of Fire
+Wall of Ice
+Wall of Wood
+Wizard Eye
+
+# 5s
+Animate Dead
+Adaptation
+Cloudkill
+Cone of Cold
+Cone of Paralysis
+Conjure Elemental
+Contact Other Plane
+Control Undead
+Curse of Swine
+Enchanted Container
+Feeblemind
+Hold Monster
+Magic Jar
+Mass Infravision
+Panic
+Passwall
+Phantasmal Killer
+Protection from Normal Weapons
+Scouring Wind
+Telekinesis
+Teleport
+Transmute Rock to Mud
+Wall of Stone
+X-Ray Vision
+
+# 6s
+Anti-Magic Shell
+Control Plants
+Control Weather
+Death Spell
+Detect Ritual Magic
+Disintegrate
+Enslave
+Flesh to Stone
+Geas
+Glove of Invulnerability
+Invisible Stalker
+Lower Water
+Move Earth
+Oblivion
+Permanent Illusion
+Programmed Illusion
+Projected Image
+Reincarnate
+Summon Djinni
+Torpor
+Trollblood
+Wall of Corpses
+Wall of Force
+Wall of Iron
+

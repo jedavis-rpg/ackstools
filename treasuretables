@@ -1,0 +1,560 @@
+# still working on a good format
+#
+#
+# TODO art object and gem description tables a la dwarf fortress
+# TODO scroll spell selections
+# TODO weapon sentience check (huge pain in ass because this parser is not
+# all that smart.  Same is true of scrolls)
+A
+(1d4ksp, )%0.3([Ornamental*1d4], )%0.3([Trinket*1d4], )%0.3([Magic])%0.01
+
+B
+(1d6ksp, )%0.8([Ornamental*1d4], )%0.7([Trinket*1d4], )%0.3([Magic*2])%0.05
+
+C
+(1d4kep, )%0.15([Gem*1d6], )%0.4([Trinket*1d6], )%0.3([Magic])%0.05
+
+D
+(1d6ksp, )%0.8(1d4kep, )%0.2([Ornamental*1d6], )%0.9([Trinket*1d4], )%0.7([Magic*2])%0.15
+
+E
+(2d20kcp, )%0.8(3d6ksp, )%0.07([Ornamental*1d4], )%0.6([Trinket*1d4], )%0.4([SWA], )%0.15([Potion], )%0.15([Magic])%0.05
+
+F
+(1d4ksp, )%0.3(1d4kgp, )%0.15([Gem*1d6], )%0.4([Jewelry*1d4], )%0.3([Magic])%0.07
+
+G
+(2d20kcp, )%0.7(3d6ksp, )%0.7(1d4kep, )%0.5([Ornamental*1d6], )%0.5([Trinket*1d6], )%0.5([SWA], )%0.25([Potion], )%0.25([Magic])%0.1
+
+H
+(1d6ksp, )%0.25(1d6kep, )%0.7([Gem*1d6], )%0.8([Trinket*1d6], )%0.8([Magic*3], [Potion], [Scroll])%0.25
+
+I
+(1d4ksp, )%0.25(1d4kgp, )%0.25([Gem*2d4], )%0.5([Jewelry*1d8], )%0.4([Magic])%0.2
+
+J
+(3d6kcp, )%0.5(2d20ksp, )%0.7(1d8kep, )%0.7([Gem*1d6], )%0.5([Trinket*1d8], )%0.5([SWA], )%0.5([Potion], )%0.45([Magic])%0.2
+
+K
+(1d4kep, )%0.3(1d6kgp, )%0.25([Brilliant*1d4], )%0.25([Jewelry*1d4], )%0.5([Magic])%0.4
+
+L
+(3d6kcp, )%0.4(2d10ksp, )%0.6(3d6kep, )%0.75([Gem*1d6], )%0.6([Jewelry*1d6], )%0.4([SWA], )%0.75([Potion], )%0.75([Magic])%0.3
+
+M
+(1d4kep, )%0.25(1d4kpp, )%0.15([Brilliant*1d6], )%0.3([Jewelry*1d6], )%0.5([Magic*2])%0.3
+
+N
+(1d8ksp, )%0.6(2d4kep, )%0.6(1d6kgp, )%0.8([Gem*1d8], )%0.8([Jewelry*1d8], )%0.8([Magic*4], [Potion], [Scroll])%0.5
+
+O
+(3d6kcp, )%0.3(3d6ksp, )%0.5(3d6kep, )%0.6(2d6kgp, )%0.6([Brilliant*1d4], )%0.3([Jewelry*1d4], )%0.6([SWA], )%0.75([Potion*2], )%0.75([Magic*2])%0.5
+
+P
+(1d4kgp, )%0.3(1d4kpp, )%0.3([Brilliant*1d4], )%0.4([Regalia*1d4], )%0.3([Magic*3])%0.4
+
+Q
+(1d8kep, )%0.5(2d6kgp, )%0.8(1d4kpp, )%0.4([Brilliant*1d6], )%0.6([Jewelry*1d4], )%0.8[Potion*1d4], [Scroll*1d4], ([Magic*6])%0.5
+
+R
+(1d6kep, )%0.5(1d6kgp, )%0.6(1d8kpp, )%0.8([Brilliant*1d4], )%0.7([Regalia*1d4], )%0.6[Potion*2d4], [Scroll*2d4], ([Sword*1d3], [Armor*1d3], [MiscWeapon*1d3], [Wand*1d3], [MiscMagic*1d3], [Ring*1d3])%0.75
+
+Ornamental
+2d20
+10: 10gp [Orn10]
+25: 25gp [Orn25]
+40: 50gp [Orn50]
+
+Orn10
+azurite
+hematite
+malachite
+obsidian
+quartz
+
+Orn25
+agate
+lapis lazuli
+tiger eye
+turquoise
+
+Orn50
+bloodstone
+crystal
+citrine
+jasper
+moonstone
+onyx
+
+Gem
+1d100
+10: 10gp [Orn10]
+25: 25gp [Orn25]
+40: 50gp [Orn50]
+55: 75gp [Gem75]
+70: 100gp [Gem100]
+80: 250gp [Gem250]
+90: 500gp [Gem500]
+95: 750gp [Gem750]
+100: 1000gp [Gem1000]
+
+Gem75
+carnelian
+chalcedony
+sardonyx
+zircon
+
+Gem100
+amber
+amethyst
+coral
+jade
+jet
+tourmaline
+
+Gem250
+garnet
+pearl
+spinel
+
+Gem500
+aquamarine
+alexandrite
+topaz
+
+Gem750
+opal
+star ruby
+star sapphire
+sunset amethyst
+imperial topaz
+
+Gem1000
+black sapphire
+diamond
+emerald
+jacinth
+ruby
+
+Brilliant
+1d100
+10: 500gp [Gem500]
+15: 750gp [Gem750]
+20: 1000gp [Gem1000]
+30: 1500gp [Bril1500]
+45: 2000gp [Bril2000]
+65: 4000gp [Bril4000]
+85: 6000gp [Bril6000]
+95: 8000gp [Bril8000]
+100: 10000gp [Bril10000]
+
+Bril1500
+amber with preserved extinct creatures
+whorled nephrite jade
+
+Bril2000
+black pearl
+baroque pearl
+crystal geode
+
+Bril4000
+facet cut imperial topaz
+flawless diamond
+
+Bril6000
+facet cut star sapphire
+facet cut star ruby
+
+Bril8000
+flawless facet cut [Gem1000]
+
+Bril10000
+flawless facet cut black sapphire
+flawless facet cut blue diamond
+
+Trinket
+2d20
+10: 2d20gp trinket
+25: 2d10x10gp trinket
+40: 2d4x100gp trinket
+
+Jewelry
+1d100
+10: 2d20gp trinket
+25: 2d10x10gp trinket
+40: 2d4x100gp trinket
+70: 2d6x100gp jewelry
+80: 3d6x100gp jewelry
+95: 1d4x1000gp jewelry
+100: 2d4x1000gp jewelry
+
+Regalia
+1d100
+15: 1d4x1000gp jewelry
+20: 2d4x1000gp jewelry
+45: 3d4x1000gp regalia
+65: 2d8x1000gp regalia
+75: 3d6x1000gp regalia
+85: 2d20x1000gp regalia
+95: 1d4x10000gp regalia
+100: 1d8x10000gp regalia
+
+Magic
+1d100
+20: [Potion]
+25: [Ring]
+56: [Scroll]
+61: [Wand]
+66: [MiscMagic]
+87: [Sword]
+92: [MiscWeapon]
+100: [Armor]
+
+Potion
+1d100
+3: Potion of Animal Control
+6: Potion of Clairaudience
+9: Potion of Clairvoyance
+12: Potion of Climbing
+17: Potion of Delusion of [Potion]
+20: Potion of Diminuation
+23: Potion of Dragon Control
+26: Potion of ESP
+28: Potion of Extra-Healing
+31: Potion of Fire Resistance
+36: Potion of Flying
+40: Potion of Gaseous Form
+43: Potion of [GiantType] Giant Control
+47: Potion of Giant Strength
+50: Potion of Growth
+54: Potion of Healing
+58: Potion of Heroism
+61: Potion of Human Control
+64: Potion of Invisibility
+66: Potion of Invulnerability
+69: Potion of Levitation
+71: Potion of Longevity
+73: Oil of Sharpness
+75: Oil of Slipperiness
+78: Potion of Love
+81: Potion of Plant Control
+83: Potion of Poison
+85: Potion of Polymorph
+88: Potion of Speed
+90: Potion of Super-Heroism
+93: Potion of Sweet Water
+95: Potion of Treasure Finding
+97: Potion of Undead Control
+100: Potion of Water Breathing
+
+GiantType
+1d20
+2: Cloud
+6: Fire
+10: Frost
+15: Hill
+19: Stone
+20: Storm
+
+Ring
+1d100
+4: Ring of Animal Command
+9: Ring of Human Command
+15: Ring of Plant Command
+25: Ring of Delusion of [Ring]
+27: Ring of Djinni Calling
+38: Ring of Fire Resistance
+49: Ring of Invisibility
+70: Ring of Protection [ProtRing]
+72: Ring of Regeneration
+74: Ring of Spell Storing (1d6 spells)
+79: Ring of Spell Turning (1d6 spells)
+81: Ring of Telekinesis
+87: Ring of Water Walking
+94: Ring of Weakness
+97: Ring of 1d4 Wishes
+100: Ring of X-Ray Vision
+
+ProtRing
+1d100
+80: +1
+91: +2
+92: +2 5' radius
+99: +3
+100: +3 5' radius
+
+Scroll
+1d100
+5: Cursed Scroll ([ScrollCurse])
+15: [ScrollLang] Ward Scroll against Elementals
+25: [ScrollLang] Ward Scroll against Lycanthropes
+30: [ScrollLang] Ward Scroll against Magic
+40: [ScrollLang] Ward Scroll against Undead
+55: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel])
+66: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel*2])
+69: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel*3])
+72: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel*4]) 
+74: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel*5])
+75: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel*6])
+76: [ScrollLang] [SpellType] Spell Scroll (L[ScrollLevel*7])
+80: [ScrollLang] Treasure Map (1d4x1000gp)
+85: [ScrollLang] Treasure Map (5d6x1000gp)
+87: [ScrollLang] Treasure Map (6d6x1000gp)
+89: [ScrollLang] Treasure Map (5d6x1000gp and [Gem*5d6])
+91: [ScrollLang] Treasure Map ([Gem*1d6], [Jewelry*2d10])
+93: [ScrollLang] Treasure Map ([Magic])
+95: [ScrollLang] Treasure Map ([Magic] and [Magic])
+96: [ScrollLang] Treasure Map ([Magic], [Magic], and [Magic] (reroll weapons))
+97: [ScrollLang] Treasure Map ([Magic], [Magic], [Magic], and [Potion])
+98: [ScrollLang] Treasure Map ([Magic], [Magic], [Magic], [Scroll], and [Potion])
+99: [ScrollLang] Treasure Map (5d6x1000gp and [Magic])
+100: [ScrollLang] Treasure Map ([Gem*5d6][Magic], and [Magic])
+
+ScrollCurse
+1d6
+1: Loses random magic item
+2: -4 penalty to one ability score
+3: May not gain experience
+4: Level reduced by 1
+5: Polymorphed into small animal
+6: Rendered blind
+
+ScrollLang
+1d100
+20: Classical Auran
+30: Common
+50: Draconic
+70: Dwarven
+90: Elven
+100: Zaharan
+
+SpellType
+1d4
+1: Divine
+4: Arcane
+
+ScrollLevel
+1d100
+25: 1
+50: 2
+70: 3
+85: 4
+95: 5
+97: 6
+98: 7A/6D
+99: 8A/7D
+100: 9A/7D
+
+Wand
+1d100
+6: Rod of Cancellation (1 charge)
+8: Rod of Resurrection (2d6 charges)
+10: Staff of Commanding (3d10 charges)
+20: Staff of Healing (3d10 charges)
+22: Staff of Power (3d10 charges)
+26: Staff of Striking (3d10 charges)
+28: Staff of Withering (3d10 charges)
+29: Staff of the Wizard (3d10 charges)
+36: Staff of the Serpent (3d10 charges)
+40: Wand of Cold (2d10 charges)
+45: Wand of Detecting Enemies (2d10 charges)
+50: Wand of Detecting Magic (2d10 charges)
+55: Wand of Detecting Metals (2d10 charges)
+60: Wand of Detecting Secret Doors (2d10 charges)
+65: Wand of Detecting Traps (2d10 charges)
+69: Wand of Device Negation (2d10 charges)
+74: Wand of Fear (2d10 charges)
+79: Wand of Fireballs (2d10 charges)
+84: Wand of Illusion (2d10 charges)
+88: Wand of Lightning Bolts (2d10 charges)
+93: Wand of Magic Missiles (2d10 charges)
+96: Wand of Paralyzation (2d10 charges)
+100: Wand of Polymorphing (2d10 charges)
+
+Sword
+# TODO sentience :(
+1d100
+39: [SwordType] +1
+44: [SwordType] +1 +2 vs Lycanthropes
+49: [SwordType] +1 +2 vs Spellcasters
+53: [SwordType] +1 +3 vs Undead
+57: [SwordType] +1 +3 vs Dragons
+62: [SwordType] +1 +3 vs regenerating monsters
+67: [SwordType] +1 +3 vs summoned monsters
+75: [SwordType] +1 light 30' radius
+80: [SwordType] +1 Flame Tongue
+81: [SwordType] +1 Life Drinker (1d4+4 charges)
+84: [SwordType] +1 locate objects
+85: [SwordType] +1 Luck Blade (1d4+1 wishes)
+89: [SwordType] +2
+91: [SwordType] +2 Charm Person
+94: [SwordType] +3
+95: [SwordType] +3 Frost Brand
+96: [SwordType] +3 Vorpal
+98: [SwordType] -1
+100: [SwordType] -2
+
+SwordType
+1d4
+1: Short Sword
+3: Sword
+4: Great Sword
+
+MiscMagic
+1d100
+2: Amulet vs Crystal Balls and ESP
+3: Apparatus of the Crab
+5: Bag of Devouring
+10: Bag of Holding
+11: Boat, Folding
+14: Boots of Levitation
+17: Boots of Speed
+20: Boots of Traveling and Springing
+21: Bowl of Commanding Water Elementals
+23: Bracers of Armor [BracerBonus]
+24: Brazier of Commanding Fire Elementals
+26: Brooch of Shielding
+29: Broom of Flying
+30: Censer of Controlling Air Elementals
+31: Chime of Opening (2d4x10 charges)
+33: Cloak of Protection [CloakBonus]
+36: Crystal Ball
+38: Crystal Ball with Clairaudience
+39: Crystal Ball with ESP
+40: Cube of Force
+41: Cube of Frost Resistance
+43: Decanter of Endless Water
+45: Displacer Cloak
+46: Drums of Panic
+49: Dust of Appearance
+52: Dust of Disappearance
+53: Efreeti Bottle
+57: Elven Cloak
+61: Elven Boots
+62: Eyes of Charming
+64: Eyes of the Eagle
+67: Eyes of Petrification
+71: Flying Carpet
+74: Gauntlets of Ogre Power
+77: Girdle of Giant Strength
+80: Helm of Alignment Changing
+84: Helm of Comprehending Languages
+85: Helm of Telepathy
+85: Helm of Teleportation
+87: Horn of Blasting
+90: Medallion of ESP
+92: Medallion of ESP, 90' range
+93: Mirror of Life Trapping
+94: Mirror of Opposition
+95: Necklace of Adaptation
+97: Rope of Climbing
+99: Scarab of Protection (2d6 charges)
+100: Stone of Controlling Earth Elementals
+
+CloakBonus
+1d100
+80: +1
+91: +2
+100: +3
+
+BracerBonus
+1d106
+6: +1
+16: +2
+36: +3
+51: +4
+71: +5
+86: +6
+100: +7
+106: AC0
+
+MiscWeapon
+1d100
+10: 2d6 Arrows +1
+12: 3d10 Arrows +1
+18: 1d6 Arrows +2
+21: 1d4 Arrows +3
+22: Arrow +3 [SlayArrowType]-Slaying
+31: Axe +1
+34: Axe +2
+41: Bow +1
+51: 2d6 Crossbow bolts +1
+53: 3d10 Crossbow bolts +1
+60: 1d6 Crossbow bolts +2
+63: 1d4 Crossbow bolts +3
+68: Dagger +1
+69: Dagger +2 +3 vs Beastmen
+75: Sling +1
+82: Spear +1
+86: Spear +2
+87: Spear +3
+94: Warhammer +1
+99: Warhammer +2
+100: Warhammer +2 Dwarven Thrower
+
+SlayArrowType
+1d20
+1: Avian
+2: Beastman
+3: Cleric
+4: Dragon
+5: Dwarf
+6: Elemental
+7: Elf
+8: Fighter
+9: Giant
+10: Giant Animal
+11: Golem
+12: Mage
+13: Mammal
+14: Plant-monster
+15: Regenerating monster
+16: Reptile
+17: Sea-creature
+18: Thief
+19: Undead
+20: Vermin
+
+Armor
+1d100
+15: [ArmorType] +1
+25: [ArmorType] +1 and shield +1
+27: [ArmorType] +1 and shield +2
+28: [ArmorType] +1 and shield +3
+32: [ArmorType] +2
+35: [ArmorType] +2 and shield +1
+38: [ArmorType] +2 and shield +2
+29: [ArmorType] +2 and shield +3
+40: [ArmorType] +3
+41: [ArmorType] +3 and shield +1
+42: [ArmorType] +3 and shield +2
+43: [ArmorType] +3 and shield +3
+63: Shield +1
+73: Shield +2
+79: Shield +3
+82: [ArmorType] -1
+85: [ArmorType] -2
+86: [ArmorType] -1 and shield +1
+87: [ArmorType] -2 and shield +1
+90: [ArmorType] AC0
+94: Shield -1
+97: Shield -2
+100: Shield AC0
+
+ArmorType
+1d100
+5: Hide Armor
+30: Leather Armor
+35: Ring Mail
+40: Scale Mail
+65: Chain Mail
+70: Banded Plate
+75: Lamellar Armor
+100: Plate Armor
+
+# "sword, weapon, or armor"
+SWA
+1d3
+1: [Sword]
+2: [MiscWeapon]
+3: [Armor]

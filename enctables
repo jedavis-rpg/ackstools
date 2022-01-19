@@ -1,0 +1,783 @@
+# file storing table data for random encounters in all terrains
+ClearEnc
+[ClearMen]
+[ClearFlyer]
+[ClearHumanoid]
+[ClearAnimal]
+[ClearAnimal]
+[Unusual]
+[Dragon]
+[Insect]
+
+GrassEnc
+[GrassMen]
+[GrassFlyer]
+[GrassHumanoid]
+[GrassAnimal]
+[GrassAnimal]
+[Unusual]
+[Dragon]
+[Insect]
+
+ScrubEnc
+[ScrubMen]
+[ScrubFlyer]
+[ScrubHumanoid]
+[ScrubAnimal]
+[ScrubAnimal]
+[Unusual]
+[Dragon]
+[Insect]
+
+WoodsEnc
+[WoodsMen]
+[WoodsFlyer]
+[WoodsHumanoid]
+[Insect]
+[Unusual]
+[WoodsAnimal]
+[WoodsAnimal]
+[Dragon]
+
+RiverEnc
+[RiverMen]
+[RiverFlyer]
+[RiverHumanoid]
+[Insect]
+[RiverSwimmer]
+[RiverSwimmer]
+[RiverAnimal]
+[Dragon]
+
+SwampEnc
+[SwampMen]
+[SwampFlyer]
+[SwampHumanoid]
+[Insect]
+[SwampSwimmer]
+[Undead]
+[Undead]
+[Dragon]
+
+MountainEnc
+[MountainMen]
+[MountainFlyer]
+[MountainHumanoid]
+[MountainHumanoid]
+[MountainAnimal]
+[Unusual]
+[Dragon]
+[MountainFlyer]
+
+HillEnc
+[HillMen]
+[HillFlyer]
+[HillHumanoid]
+[HillHumanoid]
+[HillAnimal]
+[Unusual]
+[Dragon]
+[HillFlyer]
+
+BarrenEnc
+[BarrenMen]
+[BarrenFlyer]
+[BarrenHumanoid]
+[BarrenHumanoid]
+[BarrenAnimal]
+[Unusual]
+[Dragon]
+[Undead]
+
+DesertEnc
+[DesertMen]
+[DesertFlyer]
+[DesertHumanoid]
+[DesertHumanoid]
+[DesertAnimal]
+[Unusual]
+[Dragon]
+[Undead]
+
+InhabitedEnc
+[InhabitedMen]
+[InhabitedFlyer]
+[InhabitedHumanoid]
+[InhabitedMen]
+[InhabitedMen]
+[Insect]
+[InhabitedAnimal]
+[Dragon]
+
+CityEnc
+1d8
+1: [Undead]
+2: [CityHumanoid]
+8: [CityMen]
+
+OceanEnc
+1d8
+1: [OceanMen]
+2: [OceanFlyer]
+3: [Dragon]
+8: [OceanSwimmer]
+
+JungleEnc
+[JungleMen]
+[JungleFlyer]
+[JungleInsect]
+[JungleInsect]
+[JungleHumanoid]
+[JungleAnimal]
+[JungleAnimal]
+[Dragon]
+
+ClearMen
+[GrassMen]
+
+ScrubMen
+[GrassMen]
+
+GrassMen
+Brigand
+Noble
+Mage
+Fighter
+Bandit
+Cleric
+Nomad
+Bandit
+NPC Party
+Merchant
+Berserker
+Trader
+
+WoodsMen
+Brigand
+Bandit
+NPC Party
+Merchant
+Berserker
+Brigand
+Cleric
+Mage
+Veteran
+Bandit
+Brigand
+NPC Party
+
+RiverMen
+Brigand
+Bandit
+NPC Party
+Merchant
+Pirate
+Pirate
+Pirate
+Cleric
+Mage
+Fighter
+Merchant
+NPC Party
+
+SwampMen
+Brigand
+Bandit
+NPC Party
+NPC Party
+NPC Party
+Merchant
+Cleric
+Trader
+Berserker
+Fighter
+Mage
+Bandit
+
+BarrenMen
+[MountainMen]
+
+HillsMen
+[MountainMen]
+
+MountainMen
+Brigand
+Brigand
+Trader
+Berserker
+NPC Party
+NPC Party
+NPC Party
+Acolyte
+Mage
+Fighter
+Tribesmen
+
+DesertMen
+1d12
+1: NPC Party
+2: Merchant
+3: Cleric
+4: Mage
+5: Fighter
+6: Noble
+12: Nomad
+
+InhabitedMen
+Bandit
+Bandit
+Trader
+NPC Party
+NPC Party
+Merchant
+Veteran
+Fighter
+Mage
+Acolyte
+Cleric
+Noble
+
+CityMen
+Bandit
+Trader
+NPC Party
+NPC Party
+Merchant
+Merchant
+Fighter
+Veteran
+Mage
+Cleric
+Cleric
+Noble
+
+OceanMen
+1d12:
+6: Pirate
+11: Merchant
+12: NPC Party
+
+JungleMen
+Brigand
+Bandit
+Trader
+NPC Party
+NPC Party
+Cleric
+Fighter
+Medium
+Berserker
+Brigand
+Brigand
+Tribesmen
+
+ClearHumanoid
+[GrassHumanoid]
+
+ScrubHumanoid
+[GrassHumanoid]
+
+GrassHumanoid
+Bugbear
+Elf
+Gnoll
+Goblin
+Halfling
+Hobgoblin
+Kobold
+Ogre
+Orc
+Pixie
+Throghrin
+Troll
+
+WoodsHumanoid
+Bugbear
+Cyclops
+Dryad
+Elf
+Hill Giant
+Gnoll
+Goblin
+Hobgoblin
+Ogre
+Orc
+Pixie
+Troll
+
+RiverHumanoid
+Bugbear
+Elf
+Gnoll
+Hobgoblin
+Lizardman
+Lizardman
+Naiad
+Naiad
+Ogre
+Orc
+Sprite
+Troll
+
+SwampHumanoid
+Gnoll
+Goblin
+Hobgoblin
+Lizardman
+Lizardman
+Lizardman
+Naiad
+Ogre
+Orc
+Troglodyte
+Troll
+Troll
+
+HillsHumanoid
+[MountainHumanoid]
+
+MountainHumanoid
+Dwarf
+Cloud Giant
+Frost Giant
+Hill Giant
+Stone Giant
+Storm Giant
+Goblin
+Kobold
+Ogre
+Orc
+Troglodyte
+Troll
+
+BarrenHumanoid
+Bugbear
+Hill Giant
+Goblin
+Gnoll
+Hobgoblin
+Ogre
+Ogre
+Orc
+Orc
+Throghrin
+Troll
+
+DesertHumanoid
+Bugbear
+Gnoll
+Fire Giant
+Hobgoblin
+Hobgoblin
+Minotaur
+Ogre
+Ogre
+Orc
+Orc
+Troll
+Troll
+
+CityHumanoid
+Doppelganger
+Dwarf
+Elf
+Gnome
+Halfling
+Pixie
+Sprite
+Werebear
+Wereboar
+Wererat
+Weretiger
+Werewolf
+
+InhabitedHumanoid
+Doppelganger
+Dwarf
+Elf
+Gnome
+Goblin
+Halfling
+Kobold
+Ogre
+Orc
+Pixie
+Sprite
+Wererat
+
+JungleHumanoid
+Bugbear
+Cyclops
+Elf
+Fire Giant
+Hill Giant
+Gnoll
+Goblin
+Lizardman
+Ogre
+Orc
+Troglodyte
+Troll
+
+ClearAnimal
+[GrassAnimal]
+
+ScrubAnimal
+[GrassAnimal]
+
+GrassAnimal
+Antelope
+Boar
+Lion
+Panther
+Elephant
+(Giant )%0.33Hawk
+Riding Horse
+Giant Tuatara
+Donkey
+Pit Viper
+Giant Weasel
+Giant Rattlesnake
+
+WoodsAnimal
+Antelope
+(Giant )%0.33Bat
+Grizzly Bear
+Boar
+Panther
+(Giant )%0.33Hawk
+(Giant )%0.33Owl
+Pit Viper
+Giant Black Widow Spider
+Unicorn
+Wolf
+Dire Wolf
+
+RiverAnimal
+Antelope
+Black Bear
+Boar
+Panther
+Giant Crab
+(Giant )%0.33Crocodile
+Giant Leech
+Giant Piranha
+(Giant )%0.33Rat
+Giant Shrew
+Swan
+Giant Toad
+
+HillsAnimal
+Antelope 
+Grizzly Bear
+Boar 
+Mountain Lion 
+(Giant )%0.33Eagle
+(Giant )%0.33Hawk
+Riding Horse
+Sheep 
+Pit Viper 
+(Giant )%0.33Owl
+Wolf 
+Dire Wolf
+
+MountainAnimal
+Antelope
+Cave Bear
+Mountain Lion
+(Giant )%0.33Eagle
+Wild Goat
+(Giant )%0.33Hawk
+Mule (Donkey)
+Rock Baboon
+Pit Viper
+Giant Rattlesnake
+Wolf
+Dire Wolf
+
+BarrenAnimal
+Antelope
+Cave Bear
+Mountain Lion
+(Giant )%0.33Eagle
+Wild Goat
+(Giant )%0.33Hawk
+Rock Baboon
+Pit Viper
+Giant Rattlesnake
+Giant Crab Spider
+Dire Wolf
+Vulture
+
+DesertAnimal
+Antelope
+Antelope
+Camel
+Camel
+Lion
+(Giant )%0.33Hawk
+Giant Gecko
+Giant Tuatara
+Giant Rattlesnake
+Wolf
+Dire Wolf
+Vulture
+
+InhabitedAnimal
+Antelope
+Boar
+Dog
+Giant Ferret
+(Giant )%0.33Hawk
+Riding Horse
+Mule (Donkey)
+(Giant )%0.33Rat
+Pit Viper
+Sheep
+Giant Weasel
+Wolf
+
+JungleAnimal
+Antelope 
+Boar 
+Panther
+Giant Draco Lizard
+Giant Gecko
+Giant Horned Chameleon
+Monkey 
+Giant Shrew
+Pit Viper
+Giant Python
+Spitting Cobra
+Giant Crab Spider
+
+PrehistoricAnimal
+Cave Bear
+Sabre-Tooth Tiger
+Giant Crocodile
+Mastodon
+Pteranodon
+Woolly Rhino
+Giant Python
+Stegosaurus
+Titanothere
+Triceratops
+Tyrannosaurus
+Dire Wolf
+
+BarrenFlyer
+Cockatrice
+Gargoyle
+Griffon
+Harpy
+Giant Hawk
+Hippogriff
+Lammasu
+Manticore
+Pegasus
+Small Roc
+Stirge
+Wyvern
+
+DesertFlyer
+Chimera
+Cockatrice
+Gargoyle
+Griffon
+Giant Hawk
+Lammasu
+Manticore
+Pterodactyl
+Small Roc
+Sphinx
+Wyvern
+Vulture
+
+MountainFlyer
+Bat Swarm
+Chimera
+Cockatrice
+Gargoyle
+Griffon
+Harpy
+Giant Hawk
+Hippogriff
+Manticore
+Pegasus
+[RocSize]
+Wyvern
+
+RocSize
+1d6
+3: Small Roc
+5: Large Roc
+6: Giant Roc
+
+WoodsFlyer
+Giant Bat
+Bat Swarm 
+Cockatrice 
+Griffon 
+Giant Hawk 
+Hippogriff 
+Pegasus 
+Giant Owl
+Pixie 
+Small Roc 
+Sprite 
+Stirge 
+
+ClearFlyer
+[OtherFlyer]
+
+GrassFlyer
+[OtherFlyer]
+
+ScrubFlyer
+[OtherFlyer]
+
+RiverFlyer
+[OtherFlyer]
+
+HillsFlyer
+[OtherFlyer]
+
+InhabitedFlyer
+[OtherFlyer]
+
+JungleFlyer
+[OtherFlyer]
+
+OceanFlyer
+[OtherFlyer]
+
+SwampFlyer
+[OtherFlyer]
+
+OtherFlyer
+Cockatrice
+Giant Carnivorous Fly
+Gargoyle
+Griffon
+Giant Hawk
+Hippogriff
+Giant Killer Bee
+Pegasus
+Pixie
+Small Roc
+Sprite
+Stirge
+
+RiverSwimmer
+Giant Crab
+Crocodile
+Crocodile
+Large Crocodile
+Giant Catfish
+Giant Piranha
+Giant Sturgeon
+Giant Leech
+Lizardman
+Merman
+Naiad
+Skittering Maw
+
+OceanSwimmer
+Dragon Turtle
+Hydra
+Merman
+Giant Octopus
+True Dragon
+Sea Serpent
+[SharkTable]
+[SharkTable]
+Skittering Maw
+Sea Snake
+Giant Squid
+[WhaleTable]
+
+SharkTable
+1d6
+3: Bull Shark
+5: Mako Shark
+6: Great White Shark
+
+WhaleTable
+1d6
+3: Killer Whale
+5: Narwhal
+6: Sperm Whale
+
+SwampSwimmer
+Giant Crab
+Crocodile
+Large Crocodile
+Giant Crocodile
+Giant Catfish
+Insect Swarm
+Insect Swarm
+Giant Leech
+Giant Leech
+Lizardman
+Lizardman
+Skittering Maw
+
+Dragon
+Basilisk
+Caecilian
+Chimera
+True Dragon
+True Dragon
+Sphinx
+Hydra
+Lamia
+Purple Worm
+Giant Python
+[SalamanderTable]
+Wyvern
+
+SalamanderTable
+Frost Salamander
+Flame Salamander
+
+Insect
+Giant Fire Beetle
+Giant Tiger Beetle
+Giant Bombardier Beetle
+Carcass Scavenger
+Giant Centipede
+Giant Ant
+Giant Carnivorous Fly
+Giant Killer Bee
+Giant Rhagodessa
+Giant Scorpion
+Giant Black Widow Spider
+Giant Crab Spider
+
+Undead
+Ghoul
+Ghoul
+Mummy
+Mummy
+Skeleton
+Skeleton
+Spectre
+Wight
+Wraith
+Vampire
+Zombie
+Zombie
+
+Unusual
+Basilisk
+Blink Dog
+Centaur
+Gorgon
+Hellhound
+Werewolf
+Medusa
+Phase Tiger
+Rust Monster
+Skittering Maw
+Treant
+White Ape

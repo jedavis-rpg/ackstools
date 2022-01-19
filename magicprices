@@ -1,0 +1,297 @@
+# list of items and prices
+# for use in item availability script
+# format: item name:price
+Potion of Animal Control:2500
+Potion of Clairaudience:1500
+Potion of Clairvoyance:1500
+Potion of Climbing:500
+Potion of Diminution:1500
+Potion of Dragon Control:1000
+Potion of ESP:1000
+Potion of Extra-Healing:2000
+Potion of Fire Resistance:1000
+Potion of Flying:1500
+Potion of Gaseous Form:1500
+Potion of Giant Control:1000
+Potion of Giant Strength:2000
+Potion of Growth:1500
+Potion of Healing:500
+Potion of Heroism:1500
+Potion of Human Control:1500
+Potion of Invisibility:1000
+Potion of Invulnerability:1000
+Potion of Levitation:1000
+Potion of Longevity:3000
+Oil of Sharpness:500
+Oil of Slipperiness:500
+Potion of Philter of Love:1000
+Potion of Plant Control:3000
+Potion of Poison:2000
+Potion of Polymorph:3000
+Potion of Speed:1500
+Potion of Super-Heroism:2500
+Potion of Stone to Flesh:3000
+Potion of Treasure Finding:2000
+Potion of Undead Control:2500
+Potion of Water Breathing:1500
+Scroll of Ward against Elementals:500
+Scroll of Ward against Lycanthropes:500
+Scroll of Ward against Magic :3000
+Scroll of Ward against Undead:500
+Scroll of Charm Person:500
+Scroll of Detect Magic:500
+Scroll of Floating Disc:500
+Scroll of Hold Portal:500
+Scroll of Light:500
+Scroll of Magic Missile:500
+Scroll of Magic Mouth:500
+Scroll of Protection from Evil:500
+Scroll of Read Languages:500
+Scroll of Shield:500
+Scroll of Sleep:500
+Scroll of Ventriloquism:1000
+Scroll of Continual Light:1000
+Scroll of Detect Invisible:1000
+Scroll of ESP:1000
+Scroll of Invisibility:1000
+Scroll of Knock:1000
+Scroll of Levitate:1000
+Scroll of Locate Object:1000
+Scroll of Mirror Image:1000
+Scroll of Phantasmal Force:1000
+Scroll of Web:1000
+Scroll of Wizard Lock:1000
+Scroll of Clairvoyance:1500
+Scroll of Dispel Magic:1500
+Scroll of Fireball:1500
+Scroll of Fly:1500
+Scroll of Haste:1500
+Scroll of Infravision:1500
+Scroll of Invisibility 10' radius:1500
+Scroll of Lightning Bolt:1500
+Scroll of Protection from Evil Sustained:1500
+Scroll of Protection from Normal Missiles:1500
+Scroll of Water Breathing:1500
+Scroll of Charm Monster:2000
+Scroll of Confusion:2000
+Scroll of Dimension Door:2000
+Scroll of Growth of Plants:2000
+Scroll of Hallucinatory Terrain:2000
+Scroll of Massmorph:2000
+Scroll of Polymorph Other:2000
+Scroll of Polymorph Self:2000
+Scroll of Wall of Fire:2000
+Scroll of Wall of Ice:2000
+Scroll of Wizard Eye:2000
+Scroll of Animate Dead:2500
+Scroll of Cloudkill:2500
+Scroll of Conjure Elemental:2500
+Scroll of Contact Other Plane:2500
+Scroll of Feeblemind:2500
+Scroll of Hold Monster:2500
+Scroll of Magic Jar:2500
+Scroll of Passwall:2500
+Scroll of Telekinesis:2500
+Scroll of Teleport:2500
+Scroll of Transmute Rock to Mud:2500
+Scroll of Wall of Stone:2500
+Scroll of Anti-Magic Shell:3000
+Scroll of Control Weather:3000
+Scroll of Death Spell:3000
+Scroll of Disintegrate:3000
+Scroll of Flesh to Stone:3000
+Scroll of Geas:3000
+Scroll of Invisible Stalker:3000
+Scroll of Lower Water:3000
+Scroll of Move Earth:3000
+Scroll of Projected Image:3000
+Scroll of Reincarnate:3000
+Scroll of Wall of Iron:3000
+Scroll of Command Word:500
+Scroll of Cure Light Wounds:500
+Scroll of Detect Evil:500
+Scroll of Faerie Fire:500
+Scroll of Fellowship:500
+Scroll of Purify Food and Water:500
+Scroll of Remove Fear:500
+Scroll of Resist Cold:500
+Scroll of Sanctuary:500
+Scroll of Augury:1000
+Scroll of Bless:1000
+Scroll of Charm Animal:1000
+Scroll of Delay Poison:1000
+Scroll of Find Traps:1000
+Scroll of Hold Person:1000
+Scroll of Holy Chant:1000
+Scroll of Resist Fire:1000
+Scroll of Silence:1000
+Scroll of Shimmer:1000
+Scroll of Snake Charm:1000
+Scroll of Speak with Animals:1000
+Scroll of Spiritual Weapon:1000
+Scroll of Cure Blindness:1500
+Scroll of Cure Disease:1500
+Scroll of Feign Death:1500
+Scroll of Glyph of Warding:1500
+Scroll of Growth of Animals:1500
+Scroll of Prayer:1500
+Scroll of Remove Curse:1500
+Scroll of Speak with Dead:1500
+Scroll of Striking:1500
+Scroll of Create Water:2000
+Scroll of Cure Serious Wounds:2000
+Scroll of Divination:2000
+Scroll of Neutralize Poison:2000
+Scroll of Smite Undead:2000
+Scroll of Speak with Plants:2000
+Scroll of Sticks to Snakes:2000
+Scroll of Vigor:2000
+Scroll of Tongues:2000
+Scroll of Atonement:2500
+Scroll of Commune:2500
+Scroll of Create Food:2500
+Scroll of Dispel Evil:2500
+Scroll of Flame Strike:2500
+Scroll of Insect Plague:2500
+Scroll of Quest:2500
+Scroll of Restore Life and Limb:2500
+Scroll of Strength of Mind:2500
+Scroll of Sword of Fire:2500
+Scroll of True Seeing:2500
+Ring of Animal Command:100000
+Ring of Command Human:75000
+Ring of Command Plant:100000
+Ring of Djinni Calling:18000
+Ring of Fire Resistance:50000
+Ring of Invisibility:33000
+Ring of Protection +1:25000
+Ring of Protection +2:50000
+Ring of Protection +3:75000
+Ring of Protection +3, 5' Radius:100000
+Ring of Regeneration:150000
+Ring of Spell Storing:100000
+Ring of Spell Turning:42000
+Ring of Telekinesis:125000
+Ring of Water Walking:75000
+Ring of Wishes:13500
+Ring of X-Ray Vision:82500
+Rod of Cancellation:3500
+Rod of Resurrection:70000
+Staff of Commanding [D]:75000
+Staff of Healing [D]:22500
+Staff of Power [A]:125000
+Staff of Striking [D]:25000
+Staff of Withering [D]:125000
+Staff of Wizardry [A]:275000
+Staff of the Serpent [D]:105000
+Wand of Cold:50000
+Wand of Detecting Enemies:10000
+Wand of Detecting Magic:10000
+Wand of Detecting Metals:30000
+Wand of Detecting Secret Doors:20000
+Wand of Detecting Traps:20000
+Wand of Device Negation:60000
+Wand of Fear:40000
+Wand of Fire Balls:30000
+Wand of Illusion:20000
+Wand of Lightning Bolts:30000
+Wand of Magic Missiles:10000
+Wand of Paralyzation:50000
+Wand of Polymorphing:60000
+Sword +1:5000
+Sword +1, +2 versus lycanthropes:10000
+Sword +1, +2 versus spell casters:10000
+Sword +1, +3 versus undead:20000
+Sword +1, +3 versus dragons:20000
+Sword +1, +3 versus regenerating:20000
+Sword +1, +3 versus summoned:20000
+Sword +1, light 30’ radius:30000
+Sword +1, Flame Tongue:45000
+Sword +1, Life Drinker:41000
+Sword +1, locate objects:20000
+Sword +1, Luck Blade:52500
+Sword +2, charm person:15000
+Sword +2, charm person:9000
+Sword +3:35000
+Sword +3, Frost Brand:145000
+Sword +3, Vorpal:145000
+Amulet versus Crystal Balls and ESP:75000
+Apparatus of the Crab:150000
+Bag of Holding:125000
+Boat, Folding:125000
+Boots of Levitation:50000
+Boots of Speed:50000
+Boots of Traveling and Springing:25000
+Bowl of Commanding Water Elementals:25000
+Bracers of Armor +1:5000
+Bracers of Armor +2:10000
+Bracers of Armor +3:15000
+Bracers of Armor +4:20000
+Bracers of Armor +5:25000
+Bracers of Armor +6:30000
+Bracers of Armor +7:35000
+Brazier of Commanding Fire Elementals:25000
+Brooch of Shielding:5000
+Broom of Flying:75000
+Censer of Controlling Air Elementals:25000
+Chime of Opening:80000
+Cloak of Protection +1:25000
+Cloak of Protection +2:50000
+Cloak of Protection +3:75000
+Crystal Ball:24000
+Crystal Ball with Clairaudience:42000
+Crystal Ball with ESP:54000
+Cube of Force:108000
+Cube of Frost Resistance:24000
+Decanter of Endless Water:150000
+Displacer Cloak:50000
+Drums of Panic:125000
+Dust of Appearance:1000
+Dust of Disappearance:2000
+Efreeti Bottle:40000
+Elven Cloak:25000
+Elven Boots:25000
+Eyes of Charming:25000
+Eyes of the Eagle:75000
+Eyes of Petrification:150000
+Flying Carpet:100000
+Gauntlets of Ogre Power:50000
+Girdle of Giant Strength:100000
+Helm of Alignment Changing:75000
+Helm of Comprehending Languages:25000
+Helm of Telepathy:75000
+Helm of Teleportation:82500
+Horn of Blasting:66000
+Medallion of ESP:37500
+Medallion of ESP (90'):62500
+Mirror of Life Trapping:148500
+Mirror of Opposition:200000
+Necklace of Adaptation:125000
+Rope of Climbing:25000
+Scarab of Protection:24000
+Stone of Controlling Earth Elementals:25000
+Arrow +1 x20:5000
+Arrow +2 x20:15000
+Arrow +3 x20:35000
+Arrow +3, Slaying:4750
+Axe +1:5000
+Axe +2:10000
+Bow +1:5000
+Crossbow Bolts +1 x20:5000
+Crossbow Bolts +2 x20:15000
+Crossbow Bolts +3 x20:35000
+Dagger +1:5000
+Dagger +2, +3 versus beastmen:25000
+Sling +1:5000
+Spear +1:5000
+Spear +2:15000
+Spear +3:35000
+War Hammer +1:5000
+War Hammer +2:15000
+War Hammer +2, Dwarven Thrower:118500
+Armor +1:5000
+Armor +2:15000
+Armor +3:35000
+Shield +1:5000
+Shield +2:15000
+Shield +3:35000

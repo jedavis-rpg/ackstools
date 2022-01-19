@@ -1,0 +1,5 @@
+# Merc type : parts : scale divisor (1 for inf, 2 for cav) : wage
+Light infantry:4:1:10
+Bowmen:4:1:21
+Light cavalry:2:2:60
+Horse archers:1:2:90

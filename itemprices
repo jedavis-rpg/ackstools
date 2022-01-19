@@ -1,0 +1,63 @@
+# list of items and prices
+# for use in item availability script
+# format: item name:price
+Antitoxin:200
+Belladonna:10
+Birthwort:10
+Comfrey:10
+Military oil:2
+Garlic:5
+Goldenrod:10
+Holy Water:25
+Thieves' Tools:25
+Wolfsbane:10
+Woundwort:10
+Plate Armor:60
+Lamellar:50
+Chain Mail:40
+Scale Mail:30
+Leather Armor:20
+Hide Armor:10
+Shield:10
+Silver Dagger:30
+Silvered Arrows:5
+Ballista:80
+Ballista Shot:4
+Heavy Catapult:200
+Light Catapult:100
+Catapult Shot, Pitch:25
+Catapult Shot:5
+War Dog:75
+Hunting Dog:10
+Trained Hawk:20
+Cow:10
+Stone Townhouse:1200
+Cottage:300
+Heavy Warhorse:700
+Medium Warhorse:250
+Light Warhorse:150
+Medium Riding Horse:40
+Light Riding Horse:75
+Heavy Draft Horse:40
+Medium Draft Horse:30
+Camel:100
+Ox:40
+Mule:20
+Donkey:8
+Military Saddle:25
+Plate Barding:600
+Lamellar Barding:300
+Chain Barding:150
+Scale Barding:75
+Leather Barding:40
+War Galley:60000
+Large Galley:30000
+Small Galley:10000
+Longship:15000
+Large Sailing Ship:20000
+Small Sailing Ship:10000
+Large Troop Transport:30000
+Small Troop Transport:15000
+River Boat:4000
+Sailing Boat:2000
+Canoe:40

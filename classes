@@ -1,0 +1,30 @@
+# config file for henchman class generation
+# format is Classname, HD,
+# relative probability weighting (assassins less common than thieves, &c)
+# after that we have a list of magic item types usable
+# everyone can use rings, potions, miscs
+# leaving scrolls, rods, swords, miscweapons, armor
+# so S, R, W, M, and A for those types in a single block
+# and following we have a 'probability female' for naming purposes
+# followed by a comma-space-delimited list of ability scores
+# entries in the list may be of the format [1-6], or [1-6] [3-18],
+# the former denotes a prime requisite, while the latter denotes a min stat
+# 1 through 6 index into a list of stats in ACKS order:
+# 1 -> str
+# 2 -> int
+# 3 -> wis
+# 4 -> dex
+# 5 -> con
+# 6 -> cha
+Fighter, 8, 1.0, WMA, 0.5, 1
+Mage, 4, 1.0, SR, 0.5, 2
+Cleric, 6, 1.0, SRMA, 0.5, 3
+Thief, 4, 1.0, SWMA, 0.5, 4
+Assassin, 6, 0.5, WMA, 0.5, 1, 4
+Bard, 6, 1.0, RWMA, 0.5, 4, 6
+Bladedancer, 6, 0.5, SRWMA, 1.0, 3, 4
+Explorer, 6, 0.5, WMA, 0.5, 1, 4
+Dwarven Vaultguard, 8, 0.3, WMA, 0.5, 1, 5 9
+Dwarven Craftpriest, 6, 0.3, SRMA, 0.5, 3, 5 9
+Elven Spellsword, 6, 0.3, SRWMA, 0.5, 1, 2
+Elven Nightblade, 6, 0.3, SRWMA, 0.5, 2, 4

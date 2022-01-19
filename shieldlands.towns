@@ -1,0 +1,50 @@
+# file containing town descriptions
+# for purposes of demand modifier generation
+# structure for each town is:
+# one line containing Name, market class, land value or R for random, descriptors
+# valid descriptors:
+#   Fresh - <20 years old
+#   Young - 20-100 years
+#   Mature - 100-1000 years
+#   Old - 1000-2000 years
+#   Ancient - 2001+ years
+#   Sea, Lake, River
+#   Rainforest, Savanna, Desert, Steppe, Scrub, Grasslands, Taiga, Tundra
+#   Plains, Hills, Mountains
+#   Elf, Dwarf
+#   These descriptors are space-separated, order not important
+# After towns, we have a blank line, then a list of
+# one or more lines containing possible connected settlements.
+# These are formatted as
+# townname, townname, distance (in 6-mile hexes), [W|R]
+# W and R signify water or road links
+# TODO program to generate these files from a map
+Freeport, 2, R, Mature Sea River Plains Scrub
+Deal, 4, R, Mature River Desert Plains
+Opportunity, 4, 7, Young Desert Hills
+Dirk Hill, 4, R, Young River Desert Hills
+Gold Rock, 5, R, Mature River Desert Hills
+Superior, 5, R, Mature River Desert Hills
+Dusty Hole, 5, R, Young Desert Plains
+White Lake, 5, R, Mature Desert Plains Lake
+Slag, 4, R, Mature Desert Mountains Dwarf
+Acme, 5, R, Young Scrub Hills Dwarf
+Pike, 4, R, Young Scrub Plains Lake
+Reliance, 5, R, Young Scrub Plains Lake
+Ironbridge, 5, R, Mature Desert Hills River
+Hollowhill, 5, R, Mature Desert Hills
+Fishtrap, 5, R, Young Scrub Plains Sea
+
+Freeport, Deal, 11, W
+Deal, Dirk Hill, 8, W
+Dirk Hill, Ironbridge, 12, W
+Deal, Gold Rock, 6, R
+Freeport, Fishtrap, 17, W
+Freeport, Gold Rock, 15, W
+Deal, Gold Rock, 12, W
+Superior, Gold Rock, 7, W
+Gold Rock, Dusty Hole, 7, R
+Deal, Ironbridge, 10, W
+Deal, Opportunity, 10, R
+Opportunity, Acme, 8, R
+Acme, Slag, 6, R

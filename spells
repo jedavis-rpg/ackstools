@@ -1,0 +1,88 @@
+# Spell list for spellbook and henchman generation
+# Format is that spells are listed by level, with a blank line separating
+# levels.  Lines starting with # are ignored
+# Trailing newline at end of file, because I am lazy at parsers
+# 1st level:
+Charm Person
+Detect Magic
+Floating Disc
+Hold Portal
+Light
+Magic Missile
+Magic Mouth
+Protection from Evil
+Read Languages
+Shield
+Sleep
+Ventriloquism
+
+# 2s
+Continual Light
+Detect Evil
+Detect Invisible
+ESP
+Invisibility
+Knock
+Levitate
+Locate Object
+Mirror Image
+Phantasmal Force
+Web
+Wizard Lock
+
+# 3s
+Clairvoyance
+Dispel Magic
+Fireball
+Fly
+Haste
+Hold Person
+Infravision
+Invisibility 10' radius
+Lightning Bolt
+Protection from Evil Sustained
+Protection from Normal Missiles
+Water Breathing
+
+# 4s
+Charm Monster
+Confusion
+Dimension Door
+Growth of Plants
+Hallucinatory Terrain
+Massmorph
+Polymorph Other
+Polymorph Self
+Remove Curse
+Wall of Fire
+Wall of Ice
+Wizard Eye
+
+# 5s
+Animate Dead
+Cloudkill
+Conjure Elemental
+Contact Other Plane
+Feeblemind
+Hold Monster
+Magic Jar
+Passwall
+Telekinesis
+Teleport
+Transmute Rock to Mud
+Wall of Stone
+
+# 6s
+Anti-Magic Shell
+Control Weather
+Death Spell
+Disintegrate
+Flesh to Stone
+Geas
+Invisible Stalker
+Lower Water
+Move Earth
+Projected Image
+Reincarnate
+Wall of Iron
+

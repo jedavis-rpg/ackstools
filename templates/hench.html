@@ -1,0 +1,29 @@
+<!doctype html>
+<title>Henchinator v0.1</title>
+  <h1>Henchmans!</h1>
+  <form action="{{ url_for('genhenches') }}" method="GET">
+    Market class:
+    <select name="market">
+      <option value=6>6</option>
+      <option value=5>5</option>
+      <option value=4 selected>4</option>
+      <option value=3>3</option>
+      <option value=2>2</option>
+      <option value=1>1</option>
+    </select>
+    Player's Companion
+    <input type="checkbox" name="pc" value="t"></input>
+    <input type="submit" value="Henchinate!">
+  </form>
+  {% if levels %}
+    <ul id="henchmans">
+    {% for henches in levels %}
+      {% if henches %}
+        <h2>Level {{ loop.index0 }}</h2>
+        {% for hench in henches %}
+          <li>{{ hench }}</li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}

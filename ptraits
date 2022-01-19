@@ -1,0 +1,36 @@
+# personality traits for noble personality generator
+# name, fighter, cleric, MU, thief weights, excluded traits
+
+virtues
+patient, 0.75, 1, 1.5, 1, wrathful
+courageous, 1.5, 1.25, 1, 0.5, cowardly
+generous, 1.25, 1.5, 1, 0.5, greedy
+honest, 1.25, 1.5, 0.75, 0.5, treacherous, deceitful
+devout, 1, 1.5, 0.75, 1, curious, proud
+temperate, 1, 1.5, 1.5, 0.75, gluttonous, lustful
+diligent, 1.5, 1, 1.25, 0.75, slothful
+loyal, 1.25, 1.25, 0.75, 0.75, treacherous
+just, 1, 1.25, 1.5, 1, cruel, deceitful, wrathful
+merciful, 0.75, 1, 1, 1, cruel
+humble, 0.5, 1.25, 0.5, 1, proud
+kind, 0.75, 1.5, 0.5, 0.75, cruel, envious
+
+vices # impossible combinations are implicit from the virtues
+proud, 1.25, 1, 1.5, 1
+lustful, 1, 0.75, 1, 1
+envious, 1, 0.75, 1.25, 1.5
+wrathful, 1.5, 1, 1, 0.75
+greedy, 1, 0.75, 1, 1.5
+slothful, 0.75, 1, 1.25, 1.25
+gluttonous, 1, 0.75, 1, 1.25
+cowardly, 0.5, 0.75, 1.5, 1.5
+cruel, 1, 1, 1, 1
+deceitful, 1, 1, 1.5, 1.5
+treacherous, 0.5, 0.75, 1, 1.5
+curious, 0.5, 0.75, 1.5, 1
+
+# other ones I'd like to add but that don't quite fit
+# stubborn
+# zealot
+# sociable / polite?  maybe just derive from cha
+# paranoid / mad?

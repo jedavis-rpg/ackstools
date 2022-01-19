@@ -1,0 +1,58 @@
+# list of hireling availabilities by market class
+# for use in item availability script
+# format: type:avail:by:market:class:...:...
+Light Infantry:4d100:5d20:5d10:3d4:1d6:1d2
+Slingers:8d20:4d10:2d10:1d6:1d2:1,0.7
+Heavy Infantry:2d100:5d10:3d8:1d8:1d3:1,0.85
+Crossbowmen:2d100:5d10:3d8:1d8:1d3:1,0.85
+Bowmen:8d20:4d10:2d10:1d6:1d2:1,0.7
+Longbowmen:4d20:2d10:1d10:1d3:1:1,0.33
+Light Cavalry:4d20:2d10:1d10:1d3:1:1,0.33
+Horse Archers:3d20:4d4:2d4:1d3:1,0.7:1,0.23
+Medium Cavalry:3d20:4d4:2d4:1d2:1,0.7:1,0.23
+Heavy Cavalry:4d10:1d10:1d6:1d2,0.5:1,0.5:1,0.15
+Cataphract Cavalry:3d10:1d8:1d4:1d2,0.33:1,0.4:1,0.1
+
+Alchemist:1d10:1d3:1:1,0.33:1:0.15:1,0.05
+Animal Trainer, Common:5d10:2d6:1d6:1d2:1,0.65:1,0.2
+Animal Trainer, Exotic:1d10:1d3:1:1,0.33:1,0.15:1,0.05 
+Armorer:3d10:2d4:1d4:1:1,0.4:1,0.15
+Artillerist:5d10:2d6:1d6:1d2:1,0.65:1,0.2 
+Engineer:1d10:1d3:1:1,0.33:1,0.15:1,0.05
+Healer:5d10:2d6:1d6:1d2:1,0.65:1,0.2
+Healer, Physicker:3d10:2d4:1d4:1:1,0.4:1,0.15 
+Healer, Chirugeon:1d10:1d3:1:1,0.33:1,0.15:1,0.05 
+Mariner, Captain:4d6:1d6:1d3:1,0.8:1,0.33:1,0.1
+Mariner, Navigator:5d10:1d12:1d6:1d2:1,0.6:1,0.45
+Mariner, Sailor:4d100:5d20:5d10:3d4:1d6:1d2
+Marshal, LtInf:5d10:2d6:1d6:1d2:1,0.65:1,0.2 
+Marshal, Bow:3d10:2d4:1d4:1:1,0.4:1,0.15 
+Marshal, HvInf:3d10:2d4:1d4:1:1,0.4:1,0.15 
+Marshal, LtCav:3d10:2d4:1d4:1:1,0.4:1,0.15 
+Marshal, HvCav:2d10:1d6:1d2:1,0.85:1,0.25:1,0.1
+Marshal, HsArch:2d10:1d6:1d2:1,0.85:1,0.25:1,0.1
+Marshal, Cataphract:1d10:1d3:1:1,0.33:1,0.15:1,0.05
+Mercenary Lieutenant:1d10:1d3:1:1,0.33:1,0.15:1,0.05
+Mercenary Captain:1d6:1d2:1,0.45:1,0.15:1,0.05:0
+Mercenary Colonel:1d2:1,0.25:1,0.15:1,0.05:0:0
+Mercenary General:1,0.15:0:0:0:0:0
+Quartermaster:3d10:2d4:1d4:1:1,0.4:1,0.15
+Ruffian, Carouser:4d100:5d20:5d10:3d4:1d6:1d2
+Ruffian, Footpad:5d20:4d6:2d6:1d3:1d2:1,0.4
+Ruffian, Reciter:5d20:4d6:2d6:1d3:1d2:1,0.4
+Ruffian, Spy:2d10:1d6:1d3:1,0.65:1,0.25:1,0.1
+Ruffian, Thug:5d20:4d6:2d6:1d3:1d2:1,0.4 
+Sage:1d6:1d2:1,0.65:1,0.15:1,0.05:0
+Siege Engineer:3d10:2d4:1d4:1:1,0.4:1,0.15 
+
+Divine I:2d3x100:4d4x10:5d10:4d6:2d6:1d6
+Divine II:8d10:4d6:2d6:2d3:1d3:1d2
+Divine III:2d6:2d3:2d3:1d2:1d2-1:0
+Divine IV:2d6:2d3:2d3:1d2:1d2-1:0
+Divine V:1d6:1d4:1d4:1d2-1:0:0
+Arcane I:2d4x100:2d10x10:2d4x10:3d10:2d6:1d4
+Arcane II:2d6x10:6d6:2d6:2d4:1d4:1d2
+Arcane III:4d6:2d6:2d3:1d4:1d2:0
+Arcane IV:2d4:2d3:1d4:1d2:1d2-1:0
+Arcane V:1d4:1d4:1d2:0:0:0
+Arcane VI:1d3:1d3:1d2-1:0:0:0
