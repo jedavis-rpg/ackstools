@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 import random
 import math
+import libpersonality
 import libspellbook
 import tables
 import re
@@ -150,9 +151,8 @@ def parseProfs(proffile):
     l = map(int, l)
     out.append((name, maxtimes, l))
   return out
-    
 
-def genHenches(numHenches, level, classes, market, al, spells, names, profs,gear,notabs=True):
+def genHenches(numHenches, level, classes, market, al, spells, names, profs,gear,virtues,notabs=True):
   outlist = []
   for k in range(0,numHenches):
     stats=[]
@@ -202,6 +202,11 @@ def genHenches(numHenches, level, classes, market, al, spells, names, profs,gear
     if al:
       al = alignments[random.randint(1,6)-1]
       ostring += ", AL: " + al
+
+    if virtues:
+        vmap = libpersonality.gen_personality_nocls(virtues, mod(stats[2]), al)
+        pers = ", ".join(vmap["virtues"]+vmap["vices"])
+        ostring += "\n\tPersonality: " + pers
 
     if profs != []:
       # build weightmap for this stat set
@@ -290,13 +295,13 @@ def genHenches(numHenches, level, classes, market, al, spells, names, profs,gear
     outlist.append(ostring)
   return outlist
 
-def genHenchesFiltered(fclass,numHenches, level, classes, market, al, spells, names, profs,gear,notabs=True):
+def genHenchesFiltered(fclass,numHenches, level, classes, market, al, spells, names, profs,gear,virtues,notabs=True):
   ol = genHenches(numHenches, level, classes, market, al, spells, names, profs, gear, notabs)
   if level == 0:
     return ol
   else:
     ol = filter(lambda s: fclass in s,ol)
     while len(ol) < numHenches:
-      ol.extend(genHenches(numHenches-len(ol), level, classes, market, al, spells, names, profs, gear, notabs))
+      ol.extend(genHenches(numHenches-len(ol), level, classes, market, al, spells, names, profs, gear, virtues, notabs))
       ol = filter(lambda s:fclass in s,ol)
     return ol

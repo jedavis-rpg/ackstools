@@ -17,6 +17,7 @@ parser.add_argument("-t","--treasure",default="",help="File to draw magic loot f
 parser.add_argument("-l", "--level",default=1,help="Generate NPCs of particular level")
 parser.add_argument("--names",default="",help="File to draw NPC names from")
 parser.add_argument("-g","--genprofs",default="",help="File to draw general profs from")
+parser.add_argument("-v","--virtues",default="",help="Path to file describing virtues/vice pairs")
 args = parser.parse_args()
 
 classes = []
@@ -43,9 +44,9 @@ if args.filterclass:
 
 if args.market == 10:
   if args.filterclass:
-    ol = libhenches.genHenchesFiltered(args.filterclass, args.num, int(args.level), classes, args.market, args.alignment, spells, names, profs, args.treasure != '')
+    ol = libhenches.genHenchesFiltered(args.filterclass, args.num, int(args.level), classes, args.market, args.alignment, spells, names, profs, args.treasure != '', args.virtues)
   else:
-    ol = libhenches.genHenches(args.num, int(args.level), classes, args.market, args.alignment, spells, names, profs, args.treasure != '')
+    ol = libhenches.genHenches(args.num, int(args.level), classes, args.market, args.alignment, spells, names, profs, args.treasure != '', args.virtues)
   outstring = '\n'.join(ol)
   print outstring
 
@@ -56,8 +57,8 @@ else:
       numHenches = libhenches.rollMarket(libhenches.marketClasses[args.market-1][level])
       print "L" + str(level) + "s: " + str(numHenches)
       if args.filterclass:
-        ol = libhenches.genHenchesFiltered(args.filterclass, numHenches,level, classes, args.market, args.alignment, spells, names, profs, args.treasure != '') 
+        ol = libhenches.genHenchesFiltered(args.filterclass, numHenches,level, classes, args.market, args.alignment, spells, names, profs, args.treasure != '', args.virtues) 
       else:
-        ol = libhenches.genHenches(numHenches, level, classes, args.market, args.alignment, spells, names, profs, args.treasure != '')
+        ol = libhenches.genHenches(numHenches, level, classes, args.market, args.alignment, spells, names, profs, args.treasure != '', args.virtues)
       outstring = '\n'.join(ol)
       print outstring
