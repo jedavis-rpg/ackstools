@@ -2,11 +2,21 @@
 # this is gonna be a long one
 # for simplification purposes, only concerned with WILDERNESS encounters
 # dungeon stuff...  forthcoming.  Eventually.
+Ankheg
+1d100
+15: [AnkhegLair]
+100: [AnkhegEnc]
+
 AnkhegEnc
 Cluster of 1d6 ankhegs
 
 AnkhegLair
 Nest of 1d8 ankhegs with [M]
+
+GiantAnt
+1d100
+10: [GiantAntLair]
+100: [GiantAntEnc]
 
 GiantAntEnc
 Swarm of 4d6 giant ants
@@ -15,11 +25,21 @@ GiantAntLair
 Giant ant hill with 4d6 ants, (1d10x1000gp in gold nuggets)%0.3/
 with treasure [I]
 
+WhiteApe
+1d100
+10: [WhiteApeLair]
+100: [WhiteApeEnc]
+
 WhiteApeLair
 Cave of 2d4 white apes
 
 WhiteApeEnc
 Band of 2d4 white apes
+
+RockBaboon
+1d100
+10: [RockBaboonLair]
+100: [RockBaboonEnc]
 
 RockBaboonLair
 Den of 5d6 rock baboons
@@ -27,11 +47,26 @@ Den of 5d6 rock baboons
 RockBaboonEnc
 Band of 5d6 rock baboons
 
+Basilisk
+1d100
+40: [BasiliskLair]
+100: [BasiliskEnc]
+
 BasiliskEnc
 Bask of 1d6 basilisks
 
 BasiliskLair
 Nest of 1d6 basilisks, with petrified treasure [K]
+
+Bat
+1d6
+4: [SmallBat]
+6: [GiantBat]
+
+SmallBat
+1d100
+35: [BatLair]
+100: [BatEnc]
 
 BatEnc
 Flock of 1d10 bats
@@ -39,11 +74,21 @@ Flock of 1d10 bats
 BatLair
 Nest of bats, 1 bat swarm
 
+GiantBat
+1d100
+35: [GiantBatLair]
+100: [GiantBatEnc]
+
 GiantBatLair
 Nest of 1d10( vampiric)%0.05 giant bats
 
 GiantBatEnc
 Flock of 1d10( vampiric)%0.05 giant bats
+
+BlackBear
+1d100
+25: [BlackBearLair]
+100: [BlackBearEnc]
 
 BlackBearLair
 Den of 1d4 black bears
@@ -51,11 +96,21 @@ Den of 1d4 black bears
 BlackBearEnc
 Sloth of 1d4 black bears
 
+GrizzlyBear
+1d100
+25: [GrizzlyBearLair]
+100: [GrizzlyBearEnc]
+
 GrizzlyBearLair
 Den of 1d4 grizzly bears
 
 GrizzlyBearEnc
 Sloth of 1d4 grizzly bears
+
+CaveBear
+1d100
+25: [CaveBearLair]
+100: [CaveBearEnc]
 
 CaveBearLair
 Den of 1d2 cave bears
@@ -63,11 +118,21 @@ Den of 1d2 cave bears
 CaveBearEnc
 Sloth of 1d2 cave bears
 
+PolarBear
+1d100
+25: [PolarBearLair]
+100: [PolarBearEnc]
+
 PolarBearLair
 Den of 1d2 polar bears
 
 PolarBearEnc
 Sloth of 1d2 polar bears
+
+GiantKillerBee
+1d100
+35: [GiantKillerBeeLair]
+100: [GiantKillerBeeEnc]
 
 GiantKillerBeeLair
 Hive of 5d6 giant killer bees, 10 1HD drones, 2HD queen, healing honey (1d4 doses)
@@ -75,11 +140,21 @@ Hive of 5d6 giant killer bees, 10 1HD drones, 2HD queen, healing honey (1d4 dose
 GiantKillerBeeEnc
 Swarm of 5d6 giant killer bees
 
+GiantFireBeetle
+1d100
+40: [GiantFireBeetleLair]
+100: [GiantFireBeetleEnc]
+
 GiantFireBeetleEnc
 Scourge of 2d6 giant fire beetles
 
 GiantFireBeetleLair
 Nest of 2d6 giant fire beetles
+
+GiantBombardierBeetle
+1d100
+40: [GiantBombardierBeetleLair]
+100: [GiantBombardierBeetleEnc]
 
 GiantBombardierBeetleEnc
 Scourge of 2d6 giant bombardier beetles
@@ -87,11 +162,21 @@ Scourge of 2d6 giant bombardier beetles
 GiantBombardierBeetleLair
 Nest of 2d6 giant bombardier beetles
 
+GiantTigerBeetle
+1d100
+40: [GiantTigerBeetleLair]
+100: [GiantTigerBeetleEnc]
+
 GiantTigerBeetleEnc
 Scourge of 2d4 giant tiger beetles
 
 GiantTigerBeetleLair
 Nest of 2d4 giant tiger beetles
+
+BlinkDog
+1d100
+20: [BlinkDogLair]
+100: [BlinkDogEnc]
 
 BlinkDogLair
 Den of 2d6 blink dogs, with treasure [I]
@@ -99,11 +184,22 @@ Den of 2d6 blink dogs, with treasure [I]
 BlinkDogEnc
 Route of 2d6 blink dogs
 
+Boar
+1d6
+4: [SmallBoar]
+6: [GiantBoar]
+
+SmallBoar
+[BoarEnc]
+
 BoarLair
 Sounder of 1d6 boars
 
 BoarEnc
 Sounder of 1d4 boars
+
+GiantBoar
+[GiantBoarEnc]
 
 GiantBoarLair
 Sounder of 1d4+1 giant boars
@@ -111,15 +207,25 @@ Sounder of 1d4+1 giant boars
 GiantBoarEnc
 Sounder of 1d4 giant boars
 
+Bugbear
+1d100
+25: [BugbearLair]
+100: [BugbearGang]
+
 BugbearGang
 Gang of 1d4 bugbears and a champion
 
 BugbearEnc
-Warband of [BugbearGang*1d4] and a subchieftain
+Warband of [BugbearGang*1d4] and a subchieftain, treasure [L]
 
 BugbearLair
 Village of [BugbearEnc*1d10] plus chieftain,( shaman L1d6,)%0.75/
 ( witch doctor L1d4,)%0.5 50% women and children
+
+Caecilian
+1d100
+25: CaecilianLair
+100: CaecilianEnc
 
 CaecilianEnc
 Clew of 1d3 caecilians, treasure [K] in bellies
@@ -127,11 +233,22 @@ Clew of 1d3 caecilians, treasure [K] in bellies
 CaecilianLair
 Nest of 1d3 caecilians, treasure [K] in bellies
 
+Camel
+[CamelEnc]
+
 CamelEnc
 Caravan of 2d4 camels
 
+CarcassScavenger
+[CarcassScavengerEnc]
+
 CarcassScavengerEnc
 Clew of 1d3 carcass scavengers
+
+MountainLion
+1d100
+10: [MountainLionLair]
+100: [MountainLionEnc]
 
 MountainLionEnc
 Litter of 1d4 mountain lions
@@ -139,11 +256,21 @@ Litter of 1d4 mountain lions
 MountainLionLair
 Den of 1d4 mountain lions
 
+Panther
+1d100
+10: [PantherLair]
+100: [PantherEnc]
+
 PantherEnc
 Pride of 1d6 panthers
 
 PantherLair
 Den of 1d6 panthers
+
+Lion
+1d100
+25: [LionLair]
+100: [LionEnc]
 
 LionEnc
 Pride of 1d4 lions
@@ -151,11 +278,21 @@ Pride of 1d4 lions
 LionLair
 Den of 1d8 lions
 
+Tiger
+1d100
+5: [TigerLair]
+100: [TigerEnc]
+
 TigerEnc
 One stalking tiger
 
 TigerLair
 Den of 1d3 tigers
+
+SabretoothTiger
+1d100
+5: [SabretoothTigerLair]
+100: [SabretoothTigerEnc]
 
 SabretoothTigerLair
 Den of 1d4 sabre-toothed tigers
@@ -163,18 +300,32 @@ Den of 1d4 sabre-toothed tigers
 SabretoothTigerEnc
 Troop of 1d4 sabre-toothed tigers
 
+Centaur
+1d100
+5: [CentaurLair]
+100: [CentaurEnc]
+
 CentaurEnc
-Troop of 2d10 centaurs and chieftain( with L1d6 cleric casting)%0.5, 200% /
-Females and young plus 5d6 extra young.  Treasure [L]
+Troop of 2d10 centaurs and chieftain( with L1d6 cleric casting)%0.5
 
 CentaurLair
-[CentaurEnc]
+[CentaurEnc], 200% females and young plus 5d6 extra young.  Treasure [L]               
+
+GiantCentipede
+1d100
+10: [GiantCentipedeLair]
+100: [GiantCentipedeEnc]
 
 GiantCentipedeLair
 Nest of 2d12 giant centipedes
 
-GiantCentipedeEnd
+GiantCentipedeEnc
 Swarm of 2d12 giant centipedes
+
+Chimera
+1d100
+40: [ChimeraLair]
+100: [ChimeraEnc]
 
 ChimeraLair
 Den of 1d4 chimeras with treasure [K*2]
@@ -182,11 +333,21 @@ Den of 1d4 chimeras with treasure [K*2]
 ChimeraEnc
 Flock of 1d4 chimeras
 
+Cockatrice
+1d100
+30: [CockatriceLair]
+100: [CockatriceEnc]
+
 CockatriceLair
 Nest of 1d8 cockatrice, petrified treasure [I]
 
 CockatriceEnc
 Flock of 1d8 cockatrice
+
+GiantCrab
+1d100
+90: [GiantCrabLair]
+100: [GiantCrabEnc]
 
 GiantCrabLair
 Colony of 2d6 giant crabs
@@ -194,11 +355,22 @@ Colony of 2d6 giant crabs
 GiantCrabEnc
 Cluster of 1d6 giant crabs
 
+Crocodile
+1d6
+4: [SmallCrocodile]
+6: [GiantCrocodile]
+
+SmallCrocodile
+[CrocodileEnc]
+
 CrocodileEnc
 Bask of 1d8 crocodiles
 
 CrocodileLair
 [CrocodileEnc]
+
+LargeCrocodile
+[LargeCrocodileEnc]
 
 LargeCrocodileEnc
 Bask of 1d4 large crocodiles
@@ -206,11 +378,19 @@ Bask of 1d4 large crocodiles
 LargeCrocodileLair
 [LargeCrocodileEnc]
 
+GiantCrocodile
+[GiantCrocodileEnc]
+
 GiantCrocodileEnc
 Bask of 1d3 giant crocodiles
 
 GiantCrocodileLair
 [GiantCrocodileEnc]
+
+Cyclops
+1d100
+20: [CyclopsLair]
+100: [CyclopsEnc]
 
 CyclopsLair
 Cave-lair of 1d4 cyclops, treasure [N]
@@ -218,11 +398,19 @@ Cave-lair of 1d4 cyclops, treasure [N]
 CyclopsEnc
 Gang of 1d4 cyclops
 
+DemonBoar
+1d100
+20: [DemonBoarLair]
+100: [DemonBoarEnc]
+
 DemonBoarLair
 Lair of 1d4 demon boars( and 1d3 charmed human thralls)%0.75, treasure [O], [L]
 
 DemonBoarEnc
 Sounder of 1d4 demon boars
+
+Djinni
+[DjinniEnc]
 
 DjinniLair
 One djinni
@@ -231,17 +419,32 @@ DjinniEnc
 One djinni
 
 # good lord, there are a lot of monsters
+HuntingDog
+1d100
+10: [HuntingDogLair]
+100: [HuntingDogEnc]
+
 HuntingDogLair
 Den of 3d6 hunting dogs
 
 HuntingDogEnc
 Route of 3d6 hunting dogs
 
+WarDog
+1d100
+10: [WarDogLair]
+100: [WarDogEnc]
+
 WarDogLair
 Den of 2d4 war dogs
 
 WarDogEnc
 Route of 2d4 war dogs
+
+Doppelganger
+1d100
+20: [DoppelgangerLair]
+100: [DoppelgangerEnc]
 
 DoppelgangerLair
 Lair of 1d6 doppelgangers
