@@ -86,7 +86,7 @@ def build_probs_table(n, m):
     if n == 2:
         # we don't actually care about this case, just for Trinkets
         # TODO FIXME
-        return [1 / float(m) for _ in xrange(m)]
+        return [1 / float(2*m) for _ in xrange(2*m)]
     else:
         # TODO polynomial multiplication
         raise NotImplementedError
@@ -113,7 +113,7 @@ def eval_table(tablename, terminals):
     l = tables.tableentries[tablename]
     idx_so_far = 0
     for i in xrange(len(l)):
-        prob = sum(probs[idx_so_far:l[i][0]+1])
+        prob = sum(probs[idx_so_far:l[i][0]])
         idx_so_far = l[i][0]
         out = sum_dicts(out, dict_mult_scalar(process(l[i][1], terminals), prob))
     return out
@@ -121,7 +121,7 @@ def eval_table(tablename, terminals):
 
 def main():
     terminals = ["Sword", "Potion", "Ring", "Scroll"]
-    entry = "BugbearLair"
+    entry = "OlderDragonLair"
     tables.loadtables("./treasuretables")
     tables.loadtables("./monstertables")
     print eval_table(entry, terminals)

@@ -452,41 +452,209 @@ Lair of 1d6 doppelgangers
 DoppelgangerEnc
 Throng of 1d6 doppelgangers
 
-# TODO random dragon special ability generation
-# because they're neat
-TrueDragonLair
+TrueDragon
 2d4
-2: Lair of 1d4 wyrmlings, treasure [B]
-3: Lair of 1d4 very young dragons, treasure [H]
-4: Lair of 1d4 young dragons, treasure [N]
-5: Lair of 1d4 juvenile dragons, treasure [Q]
-6: Lair of 1d4 adult dragons, treasure [Q], [N]
-7: Lair of 1d4 mature adult dragons, treasure [Q], [N]
-8: [OldDragonLair]
+2: [WyrmlingDragon]
+3: [VeryYoungDragon]
+4: [YoungDragon]
+5: [JuvenileDragon]
+6: [AdultDragon]
+7: [MatureAdultDragon]
+8: [OlderDragon]
+
+OlderDragon
+1d6
+3: [OldDragon]
+4: [VeryOldDragon]
+5: [AncientDragon]
+6: [VenerableDragon]
+
+WyrmlingDragon
+1d100
+90: [WyrmlingDragonLair]
+100: [WyrmlingDragonEnc]
+
+WyrmlingDragonLair
+1d4
+1: Lair of 1 wyrmling, treasure [B]
+2: Lair of 2 wyrmlings, treasure [B*2]
+3: Lair of 3 wyrmlings, treasure [B*3]
+4: Lair of 4 wyrmlings, treasure [B*4]
+
+WyrmlingDragonEnc
+Flight of 1d4 wyrmlings
+
+VeryYoungDragon
+1d100
+70: [VeryYoungDragonLair]
+100: [VeryYoungDragonEnc]
+
+VeryYoungDragonLair
+1d4
+1: Lair of 1 very young dragon, treasure [H]
+2: Lair of 2 very young dragons, treasure [H*2]
+3: Lair of 3 very young dragons, treasure [H*3]
+4: Lair of 4 very young dragons, treasure [H*4]
+
+VeryYoungDragonEnc
+Flight of 1d4 very young dragons
+
+YoungDragon
+1d100
+50: [YoungDragonLair]
+100: [YoungDragonEnc]
+
+YoungDragonLair
+1d4
+1: Lair of 1 young dragon, treasure [N]
+2: Lair of 2 young dragons, treasure [N*2]
+3: Lair of 3 young dragons, treasure [N*3]
+4: Lair of 4 young dragons, treasure [N*4]
+
+YoungDragonEnc
+Flight of 1d4 young dragons
+
+JuvenileDragon
+1d100
+40: [JuvenileDragonLair]
+100: [JuvenileDragonEnc]
+
+JuvenileDragonLair
+1d4
+1: Lair of 1 juvenile dragon, treasure [Q]
+2: Lair of 2 juvenile dragons, treasure [Q*2]
+3: Lair of 3 juvenile dragons, treasure [Q*3]
+4: Lair of 4 juvenile dragons, treasure [Q*4]
+
+JuvenileDragonEnc
+Flight of 1d4 juvenile dragons
+
+AdultDragon
+1d100
+40: [AdultDragonLair]
+100: [AdultDragonEnc]
+
+# TODO rework these to roll age of young with parents
+AdultDragonLair
+1d4
+1: Lair of 1 adult dragon, treasure [Q], [N]
+2: Lair of 2 adult dragons, treasure [Q*2], [N*2]
+3: Lair of 2 adult dragons and one young dragon, treasure [Q*2], [N*3]
+4: Lair of 2 adult dragons and two young dragons, treasure [Q*2], [N*4]
+
+AdultDragonEnc
+1d4
+1: Flight of 1 adult dragon
+2: Flight of 2 adult dragons
+3: Flight of 2 adult dragons and 1 young dragon
+4: Flight of 2 adult dragons and 2 young dragons
+
+MatureAdultDragon
+1d100
+30: [MatureAdultDragonLair]
+100: [MatureAdultDragonEnc]
+
+MatureAdultDragonLair
+1d4
+1: Lair of 1 mature adult dragon, treasure [Q], [N]
+2: Lair of 2 mature adult dragons, treasure [Q*2], [N*2]
+3: Lair of 2 mature adult dragons and one young dragon, treasure [Q*2], [N*3]
+4: Lair of 2 mature adult dragons and two young dragons, treasure [Q*2], [N*4]
+
+MatureAdultDragonEnc
+1d4
+1: Flight of 1 mature adult dragon
+2: Flight of 2 mature adult dragons
+3: Flight of 2 mature adult dragons and 1 young dragon
+4: Flight of 2 mature adult dragons and 2 young dragons
+
+OldDragon
+1d100
+40: [OldDragonLair]
+100: [OldDragonEnc]
 
 OldDragonLair
+1d2
+1: Lair of 1 old dragon, treasure [R]
+2: Lair of 2 old dragons, treasure [R*2]
+
+OldDragonEnc
+Flight of 1d2 old dragons
+
+VeryOldDragon
+1d100
+50: [VeryOldDragonLair]
+100: [VeryOldDragonEnc]
+
+VeryOldDragonLair
+1d2
+1: Lair of 1 very old dragon, treasure [R]
+2: Lair of 2 very old dragons, treasure [R*2]
+
+VeryOldDragonEnc
+Flight of 1d2 very old dragons
+
+AncientDragon
+1d100
+70: [AncientDragonLair]
+100: [AncientDragonEnc]
+
+AncientDragonLair
+1d2
+1: Lair of 1 ancient dragon, treasure [R]
+2: Lair of 2 ancient dragons, treasure [R*2]
+
+AncientDragonEnc
+Flight of 1d2 ancient dragons
+
+VenerableDragon
+1d100
+90: [VenerableDragonLair]
+100: [VenerableDragonEnc]
+
+VenerableDragonLair
+Lair of 1 venerable dragon, treasure [R], [N]
+
+VenerableDragonEnc
+Flight of 1 venerable dragon
+
+# TODO random dragon special ability generation
+# because they're neat
+# TODO rework this TrueDragonLair table with probabilities based on
+# a combination of baseline frequence and % in lair
+TrueDragonLair
+2d4
+2: [WyrmlingDragonLair]
+3: [VeryYoungDragonLair]
+4: [YoungDragonLair]
+5: [JuvenileDragonLair]
+6: [AdultDragonLair]
+7: [MatureAdultDragonLair]
+8: [OlderDragonLair]
+
+OlderDragonLair
 1d6
-3: Lair of 1d2 old dragons, treasure [R]
-4: Lair of 1d2 very old dragons, treasure [R]
-5: Lair of 1d2 ancient dragons, treasure [R]
-6: Lair of a venerable dragon, treasure [R], [N]
+3: [OldDragonLair]
+4: [VeryOldDragonLair]
+5: [AncientDragonLair]
+6: [VenerableDragonLair]
 
 TrueDragonEnc
 2d4
-2: Flight of 1d4 wyrmlings
-3: Flight of 1d4 very young dragons
-4: Flight of 1d4 young dragons
-5: Flight of 1d4 juvenile dragons
-6: Flight of 1d4 adult dragons
-7: Flight of 1d4 mature adult dragons
-8: [OldDragonEnc]
+2: [WyrmlingDragonEnc]
+3: [VeryYoungDragonEnc]
+4: [YoungDragonEnc]
+5: [JuvenileDragonEnc]
+6: [AdultDragonEnc]
+7: [MatureAdultDragonEnc]
+8: [OlderDragonEnc]
 
-OldDragonEnc
+OlderDragonEnc
 1d6
-3: Flight of 1d2 old dragons
-4: Flight of 1d2 very old dragons
-5: Flight of 1d2 ancient dragons
-6: Flight of one venerable dragon
+3: [OldDragonEnc]
+4: [VeryOldDragonEnc]
+5: [AncientDragonEnc]
+6: [VenerableDragonEnc]
 
 DragonTurtleLair
 Lair of one dragon turtle, treasure [R], [N]
