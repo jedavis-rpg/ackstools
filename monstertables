@@ -621,7 +621,7 @@ Flight of 1 venerable dragon
 # TODO random dragon special ability generation
 # because they're neat
 # TODO rework this TrueDragonLair table with probabilities based on
-# a combination of baseline frequence and % in lair
+# a combination of baseline frequency and % in lair
 TrueDragonLair
 2d4
 2: [WyrmlingDragonLair]
@@ -656,12 +656,23 @@ OlderDragonEnc
 5: [AncientDragonEnc]
 6: [VenerableDragonEnc]
 
+DragonTurtle
+1d100
+5: [DragonTurtleLair]
+100: [DragonTurtleEnc]
+
 DragonTurtleLair
 Lair of one dragon turtle, treasure [R], [N]
 
 DragonTurtleEnc
 One dragon turtle
 
+Dwarf
+1d100
+50: [DwarfLair]
+100: [DwarfEnc]
+
+# TODO generate magic items for leveled characters
 DwarfLair
 Dwarven vault of [DwarfEnc*1d10].  Ruled by L9 vaultlord, 2d6 elite vaultguards L1d4+1/
 ( and a craftpriest of L6+1d2)%0.5.  (The vault is guarded by [DwarfWarAnimals]/
@@ -671,11 +682,15 @@ DwarfWarAnimals
 5d4 war dogs
 2d4 trained brown bears
 
+# TODO generate magic items for leveled characters
 DwarfEnc
 Company of 1d12d6 dwarves led by a L1d4+1 vaultguard, treasure [D]
 
 DwarfSquad
 Squad of 1d6 dwarves
+
+Efreeti
+[EfreetiEnc]
 
 EfreetiLair
 [EfreetiEnc]
@@ -683,11 +698,17 @@ EfreetiLair
 EfreetiEnc
 One efreeti
 
+Elemental
+[ElementalEnc]
+
 ElementalEnc
-[ElementalLair]
+One elemental
 
 ElementalLair
-One elemental
+[ElementalEnc]
+
+Elephant
+[ElephantEnc]
 
 ElephantLair
 [ElephantEnc]
@@ -695,16 +716,28 @@ ElephantLair
 ElephantEnc
 Herd of 1d20 elephants
 
+Elf
+1d100
+10: [ElfLair]
+100: [ElfEnc]
+
+# TODO magic items for leveled characters
 ElfLair
 Elven fastness of [ElfEnc*1d10].  Ruled by L9 wizard-lord, elite guard of 2d6 L1d6+1 spellswords/
 ( and a nightblade L6+1d2)%0.5.  (The fastness is guarded by 2d6 giant hawks.  )%0.7/
 100% noncombatants and 5% children.
 
+# TODO magic items for leveled characters
 ElfEnc
 Company of 1d10d4 elves with spellsword L1d6+1 leader, treasure [E]
 
 ElfFel
 Fellowship of 1d4 elves
+
+Ettin
+1d100
+20: [EttinLair]
+100: [EttinEnc]
 
 EttinEnc
 Warband of 1d4 ettins
@@ -712,11 +745,21 @@ Warband of 1d4 ettins
 EttinLair
 Lair of 1d4 ettins, treasure [N], [H]
 
+Pixie
+1d100
+5: [PixieLair]
+100: [PixieEnc]
+
 PixieLair
 Lair of 1d4x10 pixies, treasure [B]
 
 PixieEnc
 Flight of 1d4x10 pixies
+
+Sprite
+1d100
+30: [SpriteLair]
+100: [SpriteEnc]
 
 SpriteEnc
 Wing of 3d6 sprites
@@ -724,35 +767,110 @@ Wing of 3d6 sprites
 SpriteLair
 Lair of 3d6 sprites, treasure [B]
 
+GiantCatfish
+[GiantCatfishEnc]
+
 GiantCatfishLair
+[GiantCatfishEnc]
+
+GiantCatfishEnc
 School of 1d2 giant catfish
 
+GiantPiranha
+[GiantPiranhaEnc]
+
 GiantPiranhaLair
+[GiantPiranhaEnc]
+
+GiantPiranhaEnc
 Pack of 2d4 giant piranha
 
+GiantRockfish
+[GiantRockfishEnc]
+
 GiantRockfishLair
+[GiantRockfishEnc]
+
+GiantRockfishEnc
 School of 2d4 giant rockfish
 
+GiantSturgeon
+[GiantSturgeonEnc]
+
 GiantSturgeonLair
+[GiantSturgeonEnc]
+
+GiantSturgeonEnc
 Giant sturgeon, treasure [I] in belly
+
+GiantCarnivorousFly
+1d100
+35: [GiantCarnivorousFlyLair]
+100: [GiantCarnivorousFlyEnc]
 
 GiantCarnivorousFlyLair
 Nest of 2d6 giant carnivorous flies, treasure [C]
 
+GiantCarnivorousFlyEnc
+Swarm of 2d6 giant carnivorous flies
+
+Gargoyle
+1d100
+20: [GargoyleLair]
+100: [GargoyleEnc]
+
 GargoyleLair
 Lurk of 2d4 gargoyles, treasure [H]
 
+GargoyleEnc
+Wing of 2d4 gargoyles
+
+GelatinousCube
+[GelatinousCubeEnc]
+
 GelatinousCubeLair
+[GelatinousCubeEnc]
+
+GelatinousCubeEnc
 Gelatinous cube, treasure [C] in body
+
+Ghoul
+1d100
+20: [GhoulLair]
+100: [GhoulEnc]
 
 GhoulLair
 Lair of 2d8 ghouls, treasure [D]
 
+GhoulEnc
+Horde of 2d8 ghouls
+
+HillGiant
+1d100
+25: [HillGiantLair]
+100: [HillGiantEnc]
+
 HillGiantLair
 Lair of 2d4 hill giants, treasure [N]
 
+HillGiantEnc
+Warband of 2d4 hill giants
+
+StoneGiant
+1d100
+25: [StoneGiantLair]
+100: [StoneGiantEnc]
+
 StoneGiantLair
 Lair of 1d6 stone giants( guarded by 1d4 cave bears)%0.5, treasure [N]
+
+StoneGiantEnc
+Warband of 1d6 stone giants
+
+FrostGiant
+1d100
+30: [FrostGiantLair]
+100: [FrostGiantEnc]
 
 FrostGiantLair
 Lair of 1d6 frost giants guarded by [FrostGiantGuardAnimals], treasure [N]
@@ -762,6 +880,14 @@ FrostGiantGuardAnimals
 8: 6d6 dire wolves
 10: 3d6 polar bears
 
+FrostGiantEnc
+Warband of 1d4 frost giants
+
+FireGiant
+1d100
+35: [FireGiantLair]
+100: [FireGiantEnc]
+
 FireGiantLair
 Lair of 1d3 fire giants guarded by [FireGiantGuardAnimals], treasure [N]
 
@@ -770,6 +896,14 @@ FireGiantGuardAnimals
 8: 3d6 hellhounds
 10: 1d3 pyrohydras
 
+FireGiantEnc
+Warband of 1d3 fire giants
+
+CloudGiant
+1d100
+40: [CloudGiantLair]
+100: [CloudGiantEnc]
+
 CloudGiantLair
 Floating castle of 1d3 cloud giants(, at least one of whom casts as an L2d4 mage)%0.05, guarded by [CloudGiantGuardAnimals], treasure [N]
 
@@ -777,11 +911,27 @@ CloudGiantGuardAnimals
 6d6 dire wolves
 3d6 giant hawks
 
+CloudGiantEnc
+Warband of 1d3 cloud giants
+
+StormGiant
+1d100
+45: [StormGiantLair]
+100: [StormGiantEnc]
+
 StormGiantLair
 1d10
 7: Floating castle in clouds of 1d3 storm giants(, at least one of whom casts as an L2d6 mage)%0.1, guarded by 2d4 griffons, tresaure [N], [H]
 9: Mountain castle of 1d3 storm giants(, at least one of whom casts as an L2d6 mage)%0.1, guarded by 2d4 griffons, tresaure [N], [H] 
 10: Underwater castle of 1d3 storm giants(, at least one of whom casts as an L2d6 mage)%0.1, guarded by 3d6 giant crabs, tresaure [N], [H]
+
+StormGiantEnc
+Warband of 1d3 storm giants
+
+Gnoll
+1d100
+20: [GnollLair]
+100: [GnollEnc]
 
 GnollLair
 Gnoll village of [GnollEnc*1d10].  Ruled by gnoll chieftain(, shaman L1d4+1)%0.6(, witch-doctor L1d4)%0.5.  /
@@ -790,8 +940,21 @@ Also has( 1d3 troll guards,)%0.33( 4d4 trained hyenas,)%0.66 +10% slaves, +50% f
 GnollEnc
 Warband of 1d6d6 gnolls, 1d6 champs, led by subchieftain, treasure [G]
 
+Gnome
+1d100
+50: [GnomeLair]
+100: [GnomeEnc]
+
 GnomeLair
-Gnomish vault of...
+Gnomish vault of [GnomeEnc*1d10] led by a grand chief with 1d6 bodyguards. +50% females and +25% young.
+
+GnomeEnc
+Company of 1d10d8 gnomes, 1d10 champions, led by subchieftain, treasure [D]
+
+Goblin
+1d100
+40: [GoblinLair]
+100: [GoblinEnc]
 
 GoblinLair
 Goblin village of [GoblinEnc*1d10].  Ruled by chieftain(, shaman L2d4)%0.75(, witch-doctor L1d6)%0.5. /
@@ -800,11 +963,24 @@ Also has( 5d6 dire wolves,)%0.6( 2d6 bugbear mercs,)%0.2 +60% females, and +100%
 GoblinEnc
 Goblin warband of 4d6d4 goblins(, of which 1/4 are mounted,)%0.20 plus 2d6 champs and subchief, treasure [E]
 
+Gorgon
+1d100
+40: [GorgonLair]
+100: [GorgonEnc]
+
 GorgonLair
 Den of 1d4 gorgons, treasure [K]
 
+GorgonEnc
+Gang of 1d4 gorgons
+
 GrayOozeLair
 One gray ooze
+
+Griffon
+1d100
+25: [GriffonLair]
+100: [GriffonEnc]
 
 GriffonLair
 Aerie of 2d8 griffons( with [GriffonYoung])%0.5, treasure [P]
@@ -813,11 +989,30 @@ GriffonYoung
 1d6 eggs
 1d4 young
 
+GriffonEnc
+Pride of 2d8 griffons
+
+Halfling
+1d100
+90: [HalflingLair]
+100: [HalflingEnc]
+
 HalflingLair
 Infestation of halflings (~140 with 1d6+1HD sheriff and 5d4 2HD militia, treasure [D*5])
 
+HalflingEnc
+Hankering of 1d12d6 halflings and 1d4 reeves, treasure [D]
+
+Harpy
+1d100
+25: [HarpyLair]
+100: [HarpyEnc]
+
 HarpyLair
 Nest of 2d4 harpies, treasure [E]
+
+HarpyEnc
+Wing of 2d4 harpies
 
 HawkLair
 Aerie of 1d6 hawks

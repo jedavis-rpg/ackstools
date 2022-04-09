@@ -84,9 +84,11 @@ def build_probs_table(n, m):
     if n == 1:
         return [1 / float(m) for _ in xrange(m)]
     if n == 2:
-        # we don't actually care about this case, just for Trinkets
-        # TODO FIXME
-        return [1 / float(2*m) for _ in xrange(2*m)]
+        center = m+1
+        # P(center) is always equal to 1/m
+        # and each step of distance away from center reduces probability
+        # by 1/m^2
+        return [1.0 / m - abs(i-center) * (1.0 / m**2) for i in xrange(2, 2*m+1)]
     else:
         # TODO polynomial multiplication
         raise NotImplementedError
