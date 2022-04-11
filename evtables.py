@@ -5,6 +5,7 @@
 # This uses the data format described and parsed in tables.py
 
 import re
+import sys
 import tables
 
 """
@@ -120,13 +121,20 @@ def eval_table(tablename, terminals):
         out = sum_dicts(out, dict_mult_scalar(process(l[i][1], terminals), prob))
     return out
 
+def print_evs(tablename, evdict):
+    out = tablename
+    for k in sorted(evdict.keys()):
+        out += "\n\t%s: %0.4f" % (k, evdict[k])
+    print out
 
 def main():
     terminals = ["Sword", "Potion", "Ring", "Scroll"]
-    entry = "OlderDragonLair"
+    if len(sys.argv) < 2:
+        print("Need an entrypoint table name")
     tables.loadtables("./treasuretables")
     tables.loadtables("./monstertables")
-    print eval_table(entry, terminals)
+    for entry in sys.argv[1:]:
+        print_evs(entry, eval_table(entry, terminals))
 
 if __name__ == "__main__":
     main()

@@ -1014,23 +1014,84 @@ Nest of 2d4 harpies, treasure [E]
 HarpyEnc
 Wing of 2d4 harpies
 
+Hawk
+1d6
+4: [SmallHawk]
+6: [GiantHawk]
+
+HawkLair
+1d6
+4: [SmallHawkLair]
+6: [GiantHawkLair]
+
+SmallHawk
+1d100
+20: [SmallHawkLair]
+100: [SmallHawkEnc]
+
 HawkLair
 Aerie of 1d6 hawks
+
+HawkEnc
+Flock of 1d6 hawks
+
+GiantHawk
+1d100
+20: [GiantHawkLair]
+100: [GiantHawkEnc]
 
 GiantHawkLair
 Aerie of 1d3 giant hawks(, with 1d4 eggs or 1d2 young)%0.5
 
-HellhoundLair
-Den of 2d4 hell hounds
+GiantHawkEnc
+Flock of 1d3 giant hawks
 
-GreaterHellhoundLair
-Den of 2d4 greater hell hounds
+HellHound
+1d100
+30: [HellHoundLair]
+100: [HellHoundEnc]
+
+HellHoundLair
+Den of 2d4 hell hounds with treasure [F]
+
+HellHoundEnc
+Pack of 2d4 hell hounds
+
+GreaterHellHound
+1d100
+30: [GreaterHellHoundLair]
+100: [GreaterHellHoundEnc]
+
+GreaterHellHoundLair
+Den of 2d4 greater hell hounds with treasure [P]
+
+GreaterHellHoundEnc
+Pack of 2d4 greater hell hounds
+
+HerdAnimal
+[HerdAnimalEnc]
 
 HerdAnimalLair
+[HerdAnimalEnc]
+
+HerdAnimalEnc
 Herd of 3d10 herd animals
+
+Hippogriff
+1d100
+10: [HippogriffLair]
+100: [HippogriffEnc]
 
 HippogriffLair
 Aerie of 2d8 hippogriffs( with [GriffonYoung])%0.5, treasure [F]
+
+HippogriffEnc
+Herd of 2d8 hippogriffs
+
+Hobgoblin
+1d100
+25: [HobgoblinLair]
+100: [HobgoblinEnc]
 
 HobgoblinLair
 Hobgoblin village of [HobgoblinEnc*1d10].  Ruled by chieftain(, shaman L1d8)%0.9(, witch-doctor L1d6)%0.75. /
@@ -1038,6 +1099,12 @@ Also has( 2d6 trained white apes,)%0.6 +150% females and +300% young.
 
 HobgoblinEnc
 Hobgoblin warband of 1d8 gangs (each d6 hobs plus champ) led by subchief, treasure [E]
+
+Horse
+[HorseEnc]
+
+HorseLair
+[HorseEnc]
 
 HorseEnc
 Herd of 1d10x10 [HorseType] horses
@@ -1047,13 +1114,27 @@ light
 medium
 heavy
 
+Hydra
+1d100
+20: [HydraLair]
+100: [HydraEnc]
+
 HydraLair
 Lair of 1 [HydraType]
 
 HydraType
 1d8
 3: 1d3+4-headed hydra, treasure [I]
-8: 1d5+7-headed hydra, treasure [K]
+5: 1d2+7-headed hydra, treasure [K]
+8: 1d3+9-headed hydra, treasure [M]
+
+HydraEnc
+One 1d8+4-headed hydra
+
+Kobold
+1d100
+40: [KoboldLair]
+100: [KoboldEnc]
 
 KoboldLair
 Kobold village of [KoboldEnc*1d10].  Ruled by chieftain(, shaman L1d6)%0.75(, witch-doctor L1d4)%0.5./
@@ -1067,14 +1148,41 @@ KoboldGuardAnimals
 KoboldEnc
 Kobold warband of 4d6d4 kobolds plus 1d6 champs and subchief, treasure [E]
 
+Lamia
+1d100
+40: [LamiaLair]
+100: [LamiaEnc]
+
 LamiaLair
 Lair of one lamia, treasure [N]
+
+LamiaEnc
+One lamia
+
+Lammasu
+1d100
+30: [LammasuLair]
+100: [LammasuEnc]
 
 LammasuLair
 Lair of 2d4 lammasu, treasure [R]
 
+LammasuEnc
+Flight of 2d4 lammasu
+
+GiantLeech
+[GiantLeechEnc]
+
 GiantLeechLair
+[GiantLeechEnc]
+
+GiantLeechEnc
 Brood of 1d4 giant leeches
+
+Lizardman
+1d100
+30: [LizardmanLair]
+100: [LizardmanEnc]
 
 # females were 1d4*10 per 20 lizardmen, eggs 2d4*10 per 20 lizardmen, took the average, not sure how to express
 LizardmanLair
@@ -1084,11 +1192,21 @@ Also has +125% females and +250% eggs.
 LizardmanEnc
 Lizardman warband of 2d4d8 lizardmen plus 1d8 champs and subchief, treasure [L]
 
+GiantDracoLizard
+1d100
+25: [GiantDracoLizardLair]
+100: [GiantDracoLizardEnc]
+
 GiantDracoLizardLair
 Lair of 1d6 giant draco lizards
 
 GiantDracoLizardEnc
 Lounge of 1d3 giant draco lizards
+
+GiantGecko
+1d100
+25: [GiantGeckoLair]
+100: [GiantGeckoEnc]
 
 GiantGeckoLair
 Lair of 1d6 giant gecko lizards
@@ -1096,11 +1214,21 @@ Lair of 1d6 giant gecko lizards
 GiantGeckoEnc
 Lounge of 1d3 giant gecko lizards
 
+GiantHornedChameleon
+1d100
+25: [GiantHornedChameleonLair]
+100: [GiantHornedChameleonEnc]
+
 GiantHornedChameleonLair
 Lair of 1d6 giant horned chameleon lizards
 
 GiantHornedChameleonEnc
 Lounge of 1d3 giant horned chameleon lizards
+
+GiantTuatara
+1d100
+25: [GiantTuataraLair]
+100: [GiantTuataraEnc]
 
 GiantTuataraLair
 Lair of 1d6 giant tuatara lizards
@@ -1108,11 +1236,21 @@ Lair of 1d6 giant tuatara lizards
 GiantTuataraEnc
 Lounge of 1d3 giant tuatara lizards
 
+Werebear
+1d100
+10: [WerebearLair]
+100: [WerebearEnc]
+
 WerebearLair
 Lair of 1d4 werebears, treasure [L]
 
 WerebearEnc
 Sloth of 1d4 werebears
+
+Wereboar
+1d100
+20: [WereboardLair]
+100: [WereboarEnc]
 
 WereboarLair
 Lair of 2d4 wereboars, treasure [J]
@@ -1120,11 +1258,21 @@ Lair of 2d4 wereboars, treasure [J]
 WereboarEnc
 Herd of 2d4 wereboars
 
+Wererat
+1d100
+30: [WereratLair]
+100: [WereratEnc]
+
 WereratLair
 Lair of 2d6 wererats, treasure [G]
 
 WereratEnc
 Plague of 2d6 wererats
+
+Weretiger
+1d100
+15: [WeretigerLair]
+100: [WeretigerEnc]
 
 WeretigerLair
 Lair of 1d4 weretigers, treasure [J]
@@ -1132,11 +1280,21 @@ Lair of 1d4 weretigers, treasure [J]
 WeretigerEnc
 Troop of 1d4 weretigers
 
+Werewolf
+1d100
+25: [WerewolfLair]
+100: [WerewolfEnc]
+
 WerewolfLair
 Lair of 2d6 werewolves, treasure [J]
 
 WerewolfEnc
 Route of 2d6 werewolves
+
+Manticore
+1d100
+20: [ManticoreLair]
+100: [ManticoreEnc]
 
 ManticoreLair
 Lair of 1d4 manticores, treasure [K]
@@ -1144,8 +1302,19 @@ Lair of 1d4 manticores, treasure [K]
 ManticoreEnc
 Wing of 1d4 manticores
 
+Mastodon
+[MastodonEnc]
+
+MastodonLair
+[MastodonEnc]
+
 MastodonEnc
 Herd of 2d8 Mastodons, 2 tusks each worth 2d4*100gp
+
+Medusa
+1d100
+50: [MedusaLair]
+100: [MedusaEnc]
 
 MedusaLair
 Lair of 1d4 medusa, half-petrified treasure [H]
@@ -1153,11 +1322,22 @@ Lair of 1d4 medusa, half-petrified treasure [H]
 MedusaEnc
 Coven of 1d4 medusa
 
+# TODO for all men, magic item generation for leveled characters
+Berserker
+1d100
+20: [BerserkerLair]
+100: [BerserkerEnc]
+
 BerserkerLair
 Berserker Lair of [BerserkerEnc*1d8]. Ruled by 4th level fighter with Berserkergang proficiency
 
 BerserkerEnc
 Berserker warband of 1d6d8 berserkers, treasure [J]
+
+Brigand
+1d100
+20: [BrigandLair]
+100: [BrigandEnc]
 
 BrigandLair
 Brigand Camp of [BrigandEnc*2d6]. Ruled by brigand captain 9th level fighter,/
@@ -1170,6 +1350,11 @@ BrigandGear
 short swords, short bows, leather armor, and shield
 long swords, chainmail, shields, and light warhorses
 
+Bandit
+1d100
+20: [BanditLair]
+100: [BanditEnc]
+
 BanditLair
 Bandit Camp of [BanditEnc*2d6]. Ruled by bandit captain 9th level fighter,/
 plus 1 5th level fighter for every 2 warbands(, Clr8)%0.3(, MU L8+1d2)%0.5.
@@ -1177,6 +1362,10 @@ plus 1 5th level fighter for every 2 warbands(, Clr8)%0.3(, MU L8+1d2)%0.5.
 BanditEnc
 Bandit Band of 2d4d10 bandits armed with [BrigandGear], plus 2xF2 and 1xF4 mounted in plate, treasure [H]
 
+Pirate
+1d100
+10: [PirateLair]
+100: [PirateEnc]
 
 PirateLair
 Island lair of [PirateAlignment] armed with [PirateGear], home to [PirateFleet]./
@@ -1199,8 +1388,19 @@ PirateEnc
 1d4 large transports, each with 20 pirate sailors and 50 pirate marines.  Treasure [O]
 1d6 small transports, each with 12 pirate sailors and 25 pirate marines.  Treasure [O]
 
+Merchant
+[MerchantEnc]
+
+MerchantLair
+[MerchantEnc]
+
 MerchantEnc
 1d4x10 wagons, with 5 mounted merchants in chainmail with crossbows, 20 F1 guards, and 2 F3s per 10 wagons.  Led by a F5 captain in plate.  Treasure [J*1d4]
+
+Nomad
+1d100
+10: [NomadLair]
+100: [NomadEnc]
 
 NomadArmor
 1d10
@@ -1219,17 +1419,32 @@ NomadLair
 Camp of [NomadEnc*2d6], plus 1d3 F5 elite guards(, 1 Clr9)0.5(, 1 MU8)0.25/
 (, 4d6 hunting dogs)%0.7, and one F8 chieftain.  +100% noncombatants and 200% young.
 
+Merman
+1d100
+25: [MermanLair]
+100: [MermanEnc]
+
 MermanEnc
 Band of 1d20 mermen with 2HD champion, treasure [B]
 
 MermanLair
 Village of [MermanEnc*1d20](, 3d6 giant rockfish)%0.7, and a 4HD leader.  +100% mermaids and 100% young.
 
+Minotaur
+1d100
+20: [MinotaurLair]
+100: [MinotaurEnc]
+
 MinotaurEnc
 Warband of 1d8 minotaurs
 
 MinotaurLair
 Lair of 1d8 minotaurs, treasure [L], [G]
+
+Morlock
+1d100
+35: [MorlockLair]
+100: [MorlockEnc]
 
 MorlockEnc
 Warband of 1d8d12 morlocks plus 1d8 champs and subchief, treasure [E]
@@ -1239,14 +1454,30 @@ Lair of 1d8d12 morlocks plus 1d8 champs, subchief, /
 (3d6 trained white apes, )%.075and a chieftain.  100% females, 200% young./
 Treasure [E]
 
+Mule
+[MuleEnc]
+
+MuleLair
+[MuleEnc]
+
 MuleEnc
 Rake of 1d8 mules
+
+Mummy
+1d100
+20: [MummyLair]
+100: [MummyEnc]
 
 MummyEnc
 Horde of 1d12 mummies
 
 MummyLair
 Tomb of 1d12 mummies, treasure [N*2]
+
+Neanderthal
+1d100
+40: [NeanderthalLair]
+100: [NeanderthalEnc]
 
 NeanderthalEnc
 Band of 1d10 neanderthals plus champion
@@ -1255,21 +1486,42 @@ NeanderthalLair
 Lair of [NeanderthalEnc*1d6], plus (3d6 trained white apes and )%0.75chieftain/
 .  100% females and 200% young.  Treasure [E]
 
+Dryad
+1d100
+10: [DryadLair]
+100: [DryadEnc]
+
 DryadEnc
 One dryad
 
 DryadLair
 Grove of 1d6 dryads, treasure [D]
 
+Naiad
+1d100
+95: [NaiadLair]
+100: [NaiadEnc]
+
 NaiadEnc
 One naiad
 
 NaiadLair
-Watery lair of 2d20 naiads
+Watery lair of 2d20 naiads, treasure [D]
+
+GiantOctopus
+[GiantOctopusEnc]
+
+GiantOctopusLair
+[GiantOctopusEnc]
 
 GiantOctopusEnc
 One giant octopus
 Pod of 2 giant octopi
+
+Ogre
+1d100
+20: [OgreLair]
+100: [OgreEnc]
 
 OgreEnc
 Warband of 1d3d6 ogres plus 1d3 champs and subchief.  Treasure [L] plus /
@@ -1279,6 +1531,11 @@ OgreLair
 Village of [OgreEnc*1d10], plus chieftain(, 2d8 prisoners)%0.3/
 (, shaman L1d4)%0.5(, witch doctor L1d2)%0.25, 70% females, and 50% young.
 
+Orc
+1d100
+35: [OrcLair]
+100: [OrcEnc]
+
 OrcEnc
 Warband of 4d6d4 orcs plus 2d6 champs and subchief, treasure [G]
 
@@ -1287,11 +1544,21 @@ Village of [OrcEnc*1d10], with chieftain(, 1d4+1 ogres)%0.5(, 1d4 trolls)%0.25/
 (, shaman L1d6)%0.75(, witch doctor L1d4)%0.5, 50% slaves, 100% females, and /
 200% young.
 
+Owlbear
+1d100
+30: [OwlbearLair]
+100: [OwlbearEnc]
+
 OwlbearEnc
 Sloth of 1d4 owlbears
 
 OwlbearLair
 Den of 1d4 owlbears, treasure [I]
+
+Pegasus
+1d100
+15: [PegasusLair]
+100: [PegasusEnc]
 
 PegasusEnc
 Flock of 1d12 pegasi
@@ -1303,23 +1570,48 @@ PegasusYoung
 1d6 eggs
 1d4 young
 
+PhaseTiger
+1d100
+25: [PhaseTigerLair]
+100: [PhaseTigerEnc]
+
 PhaseTigerEnc
 Clowder of 1d4 phase tigers
 
 PhaseTigerLair
 Den of 1d4 phase tigers, treasure [K]
 
+Pterodactyl
+[PterodactylEnc]
+
+PterodactylLair
+[PterodactylEnc]
+
 PterodactylEnc
 Flight of 2d4 pterodactyls
+
+Pteranodon
+[PteranodonEnc]
+
+PteranodonLair
+[PteranodonEnc]
 
 PteranodonEnc
 Flight of 2d4 pteranodons
 
+PurpleWorm
+[PurpleWormEnc]
+
+PurpleWormLair
+[PurpleWormEnc]
+
 PurpleWormEnc
 Herd of 1d4 purple worms, treasure [P*2] in belly
 
-PurpleWormLair
-Lair of 1d4 purple worms, treasure [P*2] in belly
+Remorhaz
+1d100
+25: [RemorhazLair]
+100: [RemorhazEnc]
 
 RemorhazEnc
 Herd of 1d6 remorhaz, treasure [P*1d6] in bellies
@@ -1327,17 +1619,51 @@ Herd of 1d6 remorhaz, treasure [P*1d6] in bellies
 RemorhazLair
 Colony of 3d6 remorhaz, treasure [P*3d6] in bellies
 
+GiantRhagodessa
+1d100
+35: [GiantRhagodessaLair]
+100: [GiantRhagodessaEnc]
+
 GiantRhagodessaEnc
 Cluster of 1d6 giant rhagodessa
 
 GiantRhagodessaLair
 Den of 1d6 giant rhagodessa, treasure [I]
 
+Rhinoceros
+[RhinocerosEnc]
+
+RhinocerosLair
+[RhinocerosEnc]
+
 RhinocerosEnc
 Herd of 1d12 rhinos
 
+WoollyRhinoceros
+[WoollyRhinocerosEnc]
+
+WoollyRhinocerosLair
+[WoollyRhinocerosEnc]
+
 WoollyRhinocerosEnc
 Herd of 1d8 woolly rhinos
+
+Roc
+1d6
+3: [SmallRoc]
+5: [LargeRoc]
+6: [GiantRoc]
+
+RocLair
+1d6
+3: [SmallRocLair]
+5: [LargeRocLair]
+6: [GiantRocLair]
+
+SmallRoc
+1d100
+10: [SmallRocLair]
+100: [SmallRocEnc]
 
 SmallRocEnc
 Flight of 1d12 small rocs
@@ -1345,11 +1671,21 @@ Flight of 1d12 small rocs
 SmallRocLair
 Aerie of 1d12 small rocs( with [PegasusYoung])%0.5, treasure [I], [M]
 
+LargeRoc
+1d100
+10: [LargeRocLair]
+100: [LargeRocEnc]
+
 LargeRocEnc
 Flight of 1d8 large rocs
 
 LargeRocLair
 Aerie of 1d8 large rocs( with [PegasusYoung])%0.5, treasure [K], [P]
+
+GiantRoc
+1d100
+10: [GiantRocLair]
+100: [GiantRocEnc]
 
 GiantRocEnc
 One giant roc, HP 36d8
@@ -1360,11 +1696,29 @@ Aerie of 1d2 giant rocs( with [PegasusYoung])%0.5, treasure [M],[P]
 RotGrubEnc
 Brood of 5d4 rot grubs
 
+RustMonster
+1d100
+10: [RustMonsterLair]
+100: [RustMonsterEnc]
+
 RustMonsterEnc
 Pack of 1d4 rust monsters
 
 RustMonsterLair
 Den of 1d4 rust monsters
+
+Salamander
+[FlameSalamander]
+[FrostSalamander]
+
+SalamanderLair
+[FlameSalamanderLair]
+[FrostSalamanderLair]
+
+FlameSalamander
+1d100
+25: [FlameSalamanderLair]
+100: [FlameSalamanderEnc]
 
 FlameSalamanderEnc
 Swarm of 2d4 flame salamanders
@@ -1372,11 +1726,21 @@ Swarm of 2d4 flame salamanders
 FlameSalamanderLair
 Nest of 2d4 flame salamanders, treasure [Q]
 
+FrostSalamander
+1d100
+25: [FrostSalamanderLair]
+100: [FrostSalamanderEnc]
+
 FrostSalamanderEnc
 Band of 1d3 frost salamanders
 
 FrostSalamanderLair
 Nest of 1d3 frost salamanders, treasure [Q]
+
+GiantScorpion
+1d100
+50: [GiantScorpionLair]
+100: [GiantScorpionEnc]
 
 GiantScorpionEnc
 Scourge of 1d6 giant scorpions
@@ -1384,11 +1748,19 @@ Scourge of 1d6 giant scorpions
 GiantScorpionLair
 Nest of 1d6 giant scorpions
 
+SeaSerpent
+[SeaSerpentEnc]
+
 SeaSerpentEnc
 Swarm of 2d6 sea serpents, treasure [I], [M] in belly
 
 SeaSerpentLair
-Swarm of 2d6 sea serpents, treasure [I], [M] in belly
+[SeaSerpentEnc]
+
+Shadow
+1d100
+40: [ShadowLair]
+100: [ShadowEnc]
 
 ShadowEnc
 Horde of 1d12 shadows
@@ -1396,11 +1768,22 @@ Horde of 1d12 shadows
 ShadowLair
 Haunt of 1d12 shadows, treasure [B]
 
+Shark
+[BullShark]
+[MakoShark]
+[GreatWhiteShark]
+
+BullShark
+[BullSharkEnc]
+
 BullSharkEnc
 Shiver of 3d6 bull sharks
 
 BullSharkLair
 Feeding ground of 3d6 bull sharks
+
+MakoShark
+[MakoSharkEnc]
 
 MakoSharkEnc
 Shiver of 2d6 mako sharks
@@ -1408,11 +1791,19 @@ Shiver of 2d6 mako sharks
 MakoSharkLair
 Feeding ground of 2d6 mako sharks
 
+GreatWhiteShark
+[GreatWhiteSharkEnc]
+
 GreatWhiteSharkEnc
 Shiver of 1d4 great white sharks
 
 GreatWhiteSharkLair
 Feeding ground of 1d4 great white sharks
+
+Skeleton
+1d100
+35: [SkeletonLair]
+100: [SkeletonEnc]
 
 SkeletonEnc
 Horde of 3d10 skeletons
@@ -1420,17 +1811,28 @@ Horde of 3d10 skeletons
 SkeletonLair
 Boneyard of 3d10 skeletons
 
+SkitteringMaw
+1d100
+10: [SkitteringMawEnc]
+100: [SkittingMawLair]
+
 SkitteringMawEnc
-Shiver of 1d4 skittering maws, treasure [M] in belly
+Shiver of 1d4 skittering maws
 
 SkitteringMawLair
-Den of 1d4 skittering maws, treasure [M] in belly
+Den of 1d4 skittering maws, treasure [M]
+
+SpittingCobra
+[SpittingCobraEnc]
 
 SpittingCobraEnc
-[SpittingCobraLair]
+Quiver of 1d6 spitting cobras
 
 SpittingCobraLair
-Quiver of 1d6 spitting cobras
+[SpittingCobraEnc]
+
+PitViper
+[PitViperEnc]
 
 PitViperEnc
 Nest of 1d6 pit vipers
@@ -1438,11 +1840,17 @@ Nest of 1d6 pit vipers
 PitViperLair
 [PitViperEnc]
 
+SeaSnake
+[SeaSnakeEnc]
+
 SeaSnakeEnc
 Den of 1d8 sea snakes
 
 SeaSnakeLair
 [SeaSnakeEnc]
+
+GiantPython
+[GiantPythonEnc]
 
 GiantPythonEnc
 Den of 1d3 giant pythons
@@ -1450,11 +1858,19 @@ Den of 1d3 giant pythons
 GiantPythonLair
 [GiantPythonEnc]
 
+GiantRattlesnake
+[GiantRattlesnakeEnc]
+
 GiantRattlesnakeEnc
 Den of 1d4 giant rattlesnakes
 
 GiantRattlesnakeLair
 [GiantRattlesnakeEnc]
+
+Spectre
+1d100
+20: [SpectreLair]
+100: [SpectreEnc]
 
 SpectreEnc
 Horde of 1d8 spectres
@@ -1462,11 +1878,21 @@ Horde of 1d8 spectres
 SpectreLair
 Haunt of 1d8 spectres, treasure [N]
 
+GiantBlackWidowSpider
+1d100
+90: [GiantBlackWidowSpiderLair]
+100: [GiantBlackWidowSpiderEnc]
+
 GiantBlackWidowSpiderEnc
 Clutter of 1d3 giant black widows
 
 GiantBlackWidowSpiderLair
 Den of 1d3 giant black widows, treasure [C]
+
+GiantCrabSpider
+1d100
+70: [GiantCrabSpiderLair]
+100: [GiantCrabSpiderEnc]
 
 GiantCrabSpiderEnc
 Clutter of 1d4 giant crab spiders
@@ -1474,14 +1900,25 @@ Clutter of 1d4 giant crab spiders
 GiantCrabSpiderLair
 Den of 1d4 giant crab spiders, treasure [C]
 
+GiantTarantula
+1d100
+50: [GiantTarantulaLair]
+100: [GiantTarantulaEnc]
+
 GiantTarantulaEnc
 Clutter of 1d3 giant tarantulas
 
 GiantTarantulaLair
 Den of 1d3 giant tarantulas, treasure [F]
 
+GiantSquid
+[GiantSquidEnc]
+
 GiantSquidEnc
 Pod of 1d4 giant squid
+
+GiantSquidLair
+[GiantSquidEnc]
 
 AnimatedCrystalStatueEnc
 Parade of 1d6 animated crystal statues
