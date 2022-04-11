@@ -1920,17 +1920,46 @@ Pod of 1d4 giant squid
 GiantSquidLair
 [GiantSquidEnc]
 
+AnimatedCrystalStatue
+[AnimatedCrystalStatueEnc]
+
+AnimatedCrystalStatueLair
+[AnimatedCrystalStatueEnc]
+
 AnimatedCrystalStatueEnc
 Parade of 1d6 animated crystal statues
+
+AnimatedStoneStatue
+[AnimatedStoneStatueEnc]
+
+AnimatedStoneStatueLair
+[AnimatedStoneStatueEnc]
 
 AnimatedStoneStatueEnc
 Parade of 1d3 animated stone statues
 
+AnimatedIronStatue
+[AnimatedIronStatueEnc]
+
+AnimatedIronStatueLair
+[AnimatedIronStatueEnc]
+
 AnimatedIronStatueEnc
 Parade of 1d4 animated iron statues
 
+Stegosaurus
+[StegosaurusEnc]
+
+StegosaurusLair
+[StegosaurusEnc]
+
 StegosaurusEnc
 Herd of 1d4 stegosaurus
+
+Stirge
+1d100
+40: [StirgeLair]
+100: [StirgeEnc]
 
 StirgeEnc
 Storm of 3d12 stirges
@@ -1938,11 +1967,21 @@ Storm of 3d12 stirges
 StirgeLair
 Nest of 3d12 stirges, treasure [F]
 
+BatSwarm
+1d100
+50: [BatSwarmLair]
+100: [BatSwarmEnc]
+
 BatSwarmEnc
 Cloud of 1d3 bat swarms
 
 BatSwarmLair
 Roost of 1d3 bat swarms
+
+InsectSwarm
+1d100
+25: [InsectSwarmLair]
+100: [InsectSwarmEnc]
 
 InsectSwarmEnc
 Plague of 1d3 insect swarms
@@ -1950,11 +1989,21 @@ Plague of 1d3 insect swarms
 InsectSwarmLair
 Nest of 1d3 insect swarms
 
+RatSwarm
+1d100
+10: [RatSwarmLair]
+100: [RatSwarmEnc]
+
 RatSwarmEnc
 Horde of 2d4 rat swarms
 
 RatSwarmLair
 Den of 2d4 rat swarms
+
+Throghrin
+1d100
+35: [ThroghrinLair]
+100: [ThroghrinEnc]
 
 ThroghrinEnc
 Pack of 1d10 throghrin
@@ -1962,8 +2011,17 @@ Pack of 1d10 throghrin
 ThroghrinLair
 Lair of 1d10 throghrin, treasure [G]
 
+Titanothere
+[TitanothereEnc]
+
+TitanothereLair
+[TitanothereEnc]
+
 TitanothereEnc
 Herd of 1d6 titanothere
+
+GiantToad
+[GiantToadEnc]
 
 GiantToadEnc
 Knot of 1d4 giant toads, treasure [C] in belly
@@ -1971,14 +2029,30 @@ Knot of 1d4 giant toads, treasure [C] in belly
 GiantToadLair
 Pond of 1d4 giant toads, treasure [C] in belly
 
+Treant
+1d100
+10: [TreantLair]
+100: [TreantEnc]
+
 TreantEnc
 Hedge of 1d4 treants
 
 TreantLair
 Grove of 1d8 treants, treasure [G]
 
+Tricerotops
+[TricerotopsEnc]
+
+TricerotopsLair
+[TricerotopsEnc]
+
 TricerotopsEnc
 Herd of 1d4 tricerotops
+
+Troglodyte
+1d100
+15: [TroglodyteLair]
+100: [TroglodyteEnc]
 
 TroglodyteEnc
 Warband of 1d10d8 trogs plus 1d10 champs and subchief, treasure [J]
@@ -1987,6 +2061,11 @@ TroglodyteLair
 Warren of [TroglodtyeEnc*1d10] plus chieftain, 1d10 subchieftains, 2d4 champs/
 (, shaman L1d4)%0.33(, witch doctor L1d2)%0.25, 100% females and eggs.
 
+Troll
+1d100
+40: [TrollLair]
+100: [TrollEnc]
+
 TrollEnc
 Gang of 1d8 trolls and champion, treasure [O]
 
@@ -1994,8 +2073,19 @@ TrollLair
 Village of [TrollEnc*1d10], plus chieftain, 1d4+1 bodyguards/
 (, shaman L1d4)%0.5(, witch doctor L1d2)%0.25, 100% females and young.
 
+Tyrannosaurus
+[TyrannosaurusEnc]
+
+TyrannosaurusLair
+[TyrannosaurusEnc]
+
 TyrannosaurusEnc
 One tyrannosaur, HP 20d8
+
+Unicorn
+1d100
+5: [UnicornLair]
+100: [UnicornEnc]
 
 UnicornEnc
 Blessing of 1d8 unicorns
@@ -2003,11 +2093,21 @@ Blessing of 1d8 unicorns
 UnicornLair
 Sanctum of 1d8 unicorns, treasure [D]
 
+Vampire
+1d100
+25: [VampireLair]
+100: [VampireEnc]
+
 VampireEnc
 Coven of 1d6 vampires
 
 VampireLair
 Sanctum of 1d6 vampires, treasure [Q]
+
+GiantFerret
+1d100
+25: [GiantFerretLair]
+100: [GiantFerretEnc]
 
 GiantFerretEnc
 Fesnying of 1d8 giant ferrets
@@ -2015,11 +2115,21 @@ Fesnying of 1d8 giant ferrets
 GiantFerretLair
 Den of 1d12 giant ferrets, treasure [A]
 
+GiantRat
+1d100
+10: [GiantRatLair]
+100: [GiantRatEnc]
+
 GiantRatEnc
 Horde of 3d10 giant rats
 
 GiantRatLair
 Den of 3d10 giant rats, treasure [A]
+
+GiantShrew
+1d100
+40: [GiantShrewLair]
+100: [GiantShrewEnc]
 
 GiantShrewEnc
 Drove of 1d8 giant shrews
@@ -2027,20 +2137,60 @@ Drove of 1d8 giant shrews
 GiantShrewLair
 Den of 1d8 giant shrews, treasure [A]
 
+GiantWeasel
+1d100
+25: [GiantWeaselLair]
+100: [GiantWeaselEnc]
+
 GiantWeaselEnc
 Sneak of 1d6 giant weasels
 
 GiantWeaselLair
 Den of 1d6 giant weasels, treasure [I]
 
+Whale
+1d6
+3: [KillerWhale]
+4: [Narwhal]
+6: [SpermWhale]
+
+WhaleLair
+1d6
+3: [KillerWhaleLair]
+4: [Narwhal]
+6: [SpermWhaleLair]
+
+KillerWhale
+[KillerWhaleEnc]
+
+KillerWhaleLair
+[KillerWhaleEnc]
+
 KillerWhaleEnc
 Pod of 1d6 orcas, treasure [M] in belly
+
+Narwhal
+[NarwhalEnc]
+
+NarwhalLair
+[NarwhalEnc]
 
 NarwhalEnc
 Pod of 1d4 narwhals, horns worth 1d6x1000 GP each
 
+SpermWhale
+[SpermWhaleEnc]
+
+SpermWhaleLair
+[SpermWhaleEnc]
+
 SpermWhaleEnc
 Pod of 1d3 sperm whales, treasure [P] in belly
+
+Wight
+1d100
+70: [WightLair]
+100: [WightEnc]
 
 WightEnc
 Horde of 1d8 wights
@@ -2048,11 +2198,21 @@ Horde of 1d8 wights
 WightLair
 Barrow of 1d8 wights, treasure [H]
 
+Wolf
+1d100
+10: [WolfLair]
+100: [WolfEnc]
+
 WolfEnc
 Route of 3d6 wolves
 
 WolfLair
 Den of 3d6 wolves( with 1d4 cubs)%0.5
+
+DireWolf
+1d100
+10: [DireWolfLair]
+100: [DireWolfEnc]
 
 DireWolfEnc
 Route of 2d4 dire wolves
@@ -2060,11 +2220,21 @@ Route of 2d4 dire wolves
 DireWolfLair
 Den of 2d4 dire wolves(with 1d4 cubs)%0.5
 
+Wraith
+1d100
+25: [WraithLair]
+100: [WraithEnc]
+
 WraithEnc
 Horde of 1d6 wraiths
 
 WraithLair
 Haunt of 1d6 wraiths, treasure [H]
+
+Wyvern
+1d100
+30: [WyvernLair]
+100: [WyvernEnc]
 
 WyvernEnc
 Wing of 1d6 wyverns
@@ -2072,11 +2242,19 @@ Wing of 1d6 wyverns
 WyvernLair
 Aerie of 1d6 wyverns( with [PegasusYoung])%0.5, treasure [M]
 
+YellowMold
+[YellowMoldEnc]
+
 YellowMoldEnc
 Colony of 1d8 yellow mold patches
 
 YellowMoldLair
 [YellowMoldEnc]
+
+Zombie
+1d100
+35: [ZombieLair]
+100: [ZombieEnc]
 
 ZombieEnc
 Horde of 4d6 zombies
