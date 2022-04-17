@@ -224,8 +224,8 @@ Village of [BugbearEnc*1d10] plus chieftain,( shaman L1d6,)%0.75/
 
 Caecilian
 1d100
-25: CaecilianLair
-100: CaecilianEnc
+25: [CaecilianLair]
+100: [CaecilianEnc]
 
 CaecilianEnc
 Clew of 1d3 caecilians, treasure [K] in bellies
@@ -974,7 +974,13 @@ Den of 1d4 gorgons, treasure [K]
 GorgonEnc
 Gang of 1d4 gorgons
 
+GrayOoze
+[GrayOozeEnc]
+
 GrayOozeLair
+[GrayOozeEnc]
+
+GrayOozeEnc
 One gray ooze
 
 Griffon
@@ -1029,10 +1035,10 @@ SmallHawk
 20: [SmallHawkLair]
 100: [SmallHawkEnc]
 
-HawkLair
+SmallHawkLair
 Aerie of 1d6 hawks
 
-HawkEnc
+SmallHawkEnc
 Flock of 1d6 hawks
 
 GiantHawk
@@ -1249,7 +1255,7 @@ Sloth of 1d4 werebears
 
 Wereboar
 1d100
-20: [WereboardLair]
+20: [WereboarLair]
 100: [WereboarEnc]
 
 WereboarLair
@@ -1329,7 +1335,7 @@ Berserker
 100: [BerserkerEnc]
 
 BerserkerLair
-Berserker Lair of [BerserkerEnc*1d8]. Ruled by 4th level fighter with Berserkergang proficiency
+Berserker Lair of [BerserkerEnc*1d8]. Ruled by 4th level fighter with Berserkergang proficiency with treasure ([Sword], )%0.2([Armor], %0.2)([MiscWeapon], )%0.2([MiscMagic], )%0.2([Potion])%0.2 
 
 BerserkerEnc
 Berserker warband of 1d6d8 berserkers, treasure [J]
@@ -1340,8 +1346,8 @@ Brigand
 100: [BrigandEnc]
 
 BrigandLair
-Brigand Camp of [BrigandEnc*2d6]. Ruled by brigand captain 9th level fighter,/
-plus 1 5th level fighter for every 2 warbands(, Clr8)%0.3(, MU L8+1d2)%0.5.
+Brigand Camp of [BrigandEnc*2d6]. Ruled by brigand captain [BanditCaptain],/
+plus 1 5th level fighter for every 2 warbands with [BanditLtLoot], [BanditCleric])%0.3(, [BanditMU])%0.5.
 
 BrigandEnc
 Brigand Band of 2d4d10 brigands armed with [BrigandGear], plus 2xF2 and 1xF4 mounted in plate, treasure [H]
@@ -1356,11 +1362,24 @@ Bandit
 100: [BanditEnc]
 
 BanditLair
-Bandit Camp of [BanditEnc*2d6]. Ruled by bandit captain 9th level fighter,/
-plus 1 5th level fighter for every 2 warbands(, Clr8)%0.3(, MU L8+1d2)%0.5.
+Bandit Camp of [BanditEnc*2d6]. Ruled by bandit captain [BanditCaptain],/
+plus 1 5th level fighter for every 2 warbands with [BanditLtLoot], (, Clr8)%0.3(, [BanditMU])%0.5.
+
+BanditCaptain
+9th level fighter with ([Sword], )%0.45([Armor], %0.45)([MiscWeapon], )%0.45([MiscMagic], )%0.45([Ring], )%0.45([Potion])%0.45 
+
+BanditLtLoot
+([Sword], )%0.875([Armor], %0.875)([MiscWeapon], )%0.875([MiscMagic], )%0.875([Ring], )%0.875([Potion])%0.875  
+
+BanditMU
+MU L9 with ([Wand], )%0.45([Scroll], )%0.45([MiscMagic], )%0.45([Ring], )%0.45([Potion])%0.45
+MU L10 with ([Wand], )%0.5([Scroll], )%0.5([MiscMagic], )%0.5([Ring], )%0.5([Potion])%0.5
+
+BanditCleric
+Clr8 with ([Wand], )%0.4([Armor], )%0.4([MiscWeapon], )%0.4([Scroll], )%0.4([Ring], )%0.4([Potion])%0.4
 
 BanditEnc
-Bandit Band of 2d4d10 bandits armed with [BrigandGear], plus 2xF2 and 1xF4 mounted in plate, treasure [H]
+Bandit Band of 2d4d10 bandits armed with [BrigandGear], plus 2xF2 and 1xF4 mounted in plate, treasure [H], ([Sword], )%0.4([Armor], %0.4)([MiscWeapon], )%0.4([MiscMagic], )%0.4([Ring], )%0.4([Potion])%0.4
 
 Pirate
 1d100
@@ -1368,8 +1387,8 @@ Pirate
 100: [PirateEnc]
 
 PirateLair
-Island lair of [PirateAlignment] armed with [PirateGear], home to [PirateFleet]./
-Ruled by a pirate captain or king, plus one F4/30 pirates, one F5/50 pirates, and 5 hostages per 100 pirates.
+Island lair of [PirateAlignment] armed with [PirateGear], home to [PirateEnc]./
+Ruled by a pirate captain or king, plus one F4/30 pirates, one F5/50 pirates, and 5 hostages per 100 pirates. NPC gear [Sword*1d2], [Armor*1d2], [MiscWeapon*1d2], [MiscMagic*1d2], [Ring*1d2], [Potion*1d2].
 
 PirateAlignment
 1d10
@@ -1395,7 +1414,7 @@ MerchantLair
 [MerchantEnc]
 
 MerchantEnc
-1d4x10 wagons, with 5 mounted merchants in chainmail with crossbows, 20 F1 guards, and 2 F3s per 10 wagons.  Led by a F5 captain in plate.  Treasure [J*1d4]
+1d4x10 wagons, with 5 mounted merchants in chainmail with crossbows, 20 F1 guards, and 2 F3s per 10 wagons.  Led by a F5 captain in plate.  Treasure [J*1d4], NPC gear [Sword*2], [Ring*2], [MiscWeapon*2], [Armor*2], [Potion*2], [Ring*2], [MiscMagic*2].
 
 Nomad
 1d100
@@ -1413,7 +1432,7 @@ carrying shortbows and mounted on light riding horses
 carrying lances and mounted on light warhorses
 
 NomadEnc
-Caravan of 1d4x10 nomads, wearing [NomadArmor] armor and [NomadArms], plus one F4 and 2 F2s, with treasure [E]
+Caravan of 1d4x10 nomads, wearing [NomadArmor] armor and [NomadArms], plus one F4 and 2 F2s, with treasure [E], ([Sword], )%0.4([Armor], %0.4)([MiscWeapon], )%0.4([MiscMagic], )%0.4([Ring], )%0.4([Potion])%0.4 
 
 NomadLair
 Camp of [NomadEnc*2d6], plus 1d3 F5 elite guards(, 1 Clr9)0.5(, 1 MU8)0.25/
@@ -1773,6 +1792,11 @@ Shark
 [MakoShark]
 [GreatWhiteShark]
 
+SharkLair
+[BullSharkLair]
+[MakoSharkLair]
+[GreatWhiteSharkLair]
+
 BullShark
 [BullSharkEnc]
 
@@ -1814,7 +1838,7 @@ Boneyard of 3d10 skeletons
 SkitteringMaw
 1d100
 10: [SkitteringMawEnc]
-100: [SkittingMawLair]
+100: [SkitteringMawLair]
 
 SkitteringMawEnc
 Shiver of 1d4 skittering maws
@@ -2058,7 +2082,7 @@ TroglodyteEnc
 Warband of 1d10d8 trogs plus 1d10 champs and subchief, treasure [J]
 
 TroglodyteLair
-Warren of [TroglodtyeEnc*1d10] plus chieftain, 1d10 subchieftains, 2d4 champs/
+Warren of [TroglodyteEnc*1d10] plus chieftain, 1d10 subchieftains, 2d4 champs/
 (, shaman L1d4)%0.33(, witch doctor L1d2)%0.25, 100% females and eggs.
 
 Troll
