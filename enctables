@@ -69,15 +69,15 @@ MountainEnc
 [Dragon]
 [MountainFlyer]
 
-HillEnc
-[HillMen]
-[HillFlyer]
-[HillHumanoid]
-[HillHumanoid]
-[HillAnimal]
+HillsEnc
+[HillsMen]
+[HillsFlyer]
+[HillsHumanoid]
+[HillsHumanoid]
+[HillsAnimal]
 [Unusual]
 [Dragon]
-[HillFlyer]
+[HillsFlyer]
 
 BarrenEnc
 [BarrenMen]
